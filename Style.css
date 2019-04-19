@@ -132,18 +132,7 @@ font-weight            : normal;
 }
 /* Bannière */
 
-#image_tete
-{ 
 
- 
-
- width                 : 450px;
- height                : 250px;
-  background-image     : url('imagecss/centret-ete.gif');
-   margin              : auto;
-   margin-top          : 5px;
-   opacity              : 0.04;
-}
 /*section*/
 section
 { display              : flex;
