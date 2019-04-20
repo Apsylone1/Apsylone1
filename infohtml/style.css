@@ -71,12 +71,13 @@ section h2
 	
 
 }
-p{
+p{margin-right: 20px;
+	margin-left: 5px;
 	text-align:center;
 }
 #bordure{
 	text-align: center;
-	margin-left: 50%;
+	margin-left: 47%;
 	color :blue;
 	border:2px outset green;
 	background-color: silver;
