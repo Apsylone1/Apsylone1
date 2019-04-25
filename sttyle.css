@@ -1,0 +1,79 @@
+Body{
+    background-image: url("http://www.marevueweb.com/wp-content/uploads/2010/02/fredperrot6.jpg");
+    background-color: aquamarine;
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+  
+}
+.navHeader{
+    text-decoration: none;
+    background-color: orange;
+    border               : 3px double rgba(86, 86, 218, 0.959);
+    box-shadow: 5px 7px;
+    border-radius        : 5px;
+}
+
+#logo{
+    height: 100px;
+    width: 100px;
+    position:left;
+    opacity: 0.84;
+}
+
+#navigation{
+ text-align:center;
+ margin-left:30px;
+  
+   
+
+}
+#conteneurNav{
+    
+    display : flex;
+    flex-direction:row;
+    justify-content: space-around;
+    font-size: 1.7em;
+    text-decoration: none;
+    margin-left:39px;
+  }
+  
+  
+  @keyframes <importantTranslation> {
+    <keyframe-block-list>
+  }
+  
+  #importantTranslation{
+    animation-duration: 11s;
+    animation-name: slidein;
+  }
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+    75% {
+      font-size: 300%;
+      margin-left: 25%;
+      width: 150%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+.title{
+    font-size: 5em;
+}
+.subtitle{
+
+    font-size: 4em;
+   margin-left:60px;
+}
+
+  /*................................................*/
+ 
+ 
