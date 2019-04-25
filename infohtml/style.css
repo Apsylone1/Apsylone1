@@ -11,8 +11,7 @@
 body
 {
 	height:100%;
-	width: 100%;
-	background-image:url("cssimage/giphy.gif");
+	background-image: url("http://www.belatrixsf.com/blog/wp-content/uploads/2015/08/UX-developer-01.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100%;
@@ -32,6 +31,21 @@ flex-direction         : column;
        display         : flex;
     flex-direction     : row;/*direction du flex*//*dans se cas la ce son les bloc qui senfile l'un a coté de l'autre*/
     align-items        : baseline;
+    color:red;
+}
+#red{
+	color:white;
+	background-color: red;
+width: 150px;
+}
+#infoFabrice{
+	background-color: #273746;
+	border:3px solid yellow;
+	font-size: 1.5em;
+}
+#dujardin{
+	padding-top:100px;
+
 }
 #logo img
 {
