@@ -16,6 +16,11 @@ body{
     height:100%;
     
 }
+.Nom{
+      
+      position: sticky;
+      top: 0px;
+}
 h1
 {
 width:350;
