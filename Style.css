@@ -211,6 +211,12 @@ aside
  
 
 }
+.video1{
+  border:0.5px solid white;
+}
+
+
+
 .Hawking1{
   background-image: url('https://img.maxisciences.com/article/1280/astronomie/les-etoiles-sont-particulierement-observable-la-nuit-car-elle-degage-de-l-energie-lumineuse_9fc06da966dbb33b5bd4dd471961a8d28ecc373f.jpg');
   margin-top :65px;
