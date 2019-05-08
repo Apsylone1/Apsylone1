@@ -283,7 +283,7 @@ color:white;
 font-size: 1.5em;
 
 }
- #couleur:visited {
+ #couleur:visited{
   color: white;
  }
 #couleur:hover{
@@ -300,8 +300,7 @@ font-size: 1.5em;
 }
     
 
-@media screen and (max-width: 1100px)
-{
+@media screen and (max-width: 1100px){
  body{
     background-position: center;
     background-repeat: no-repeat;
