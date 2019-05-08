@@ -33,8 +33,8 @@ background-image       : url('imagecss/cssbackgrounnd.jpg');
 font-family            : Arial,sans-serif;
 color                  : white;
 background-repeat: no-repeat;/*l'image ne se répéte pas*/
-background-position: center; /*postion de l'image sur la page*/
-background-size: 100% ;/*tail de l'image par rapport aux bloc*/
+background-position: center;
+background-size: cover;/*tail de l'image par rapport aux bloc*/
 
 
 }
@@ -196,7 +196,7 @@ aside
   }
  /*logo cia*/
 #Conteneur2{
-  height: 450px;
+  height: 490px;
   margin-left: 30px;
   margin-right: 20px;
   margin-bottom: 30px;
@@ -219,8 +219,8 @@ aside
 
 .Hawking1{
   background-image: url('https://img.maxisciences.com/article/1280/astronomie/les-etoiles-sont-particulierement-observable-la-nuit-car-elle-degage-de-l-energie-lumineuse_9fc06da966dbb33b5bd4dd471961a8d28ecc373f.jpg');
-  margin-top :65px;
-padding-top: 12px;
+ 
+padding-top: 13px;
 padding-bottom: 5px;
 margin-left: 290px;
 margin-right: 250px;
@@ -228,10 +228,24 @@ border: 2px solid blue;
 border-radius: 150px 150px 20px 20px ;
 box-shadow: 2px 5px 5px yellow;
 }
+.Hawking2{
+  background-image: url('https://img.maxisciences.com/article/1280/astronomie/les-etoiles-sont-particulierement-observable-la-nuit-car-elle-degage-de-l-energie-lumineuse_9fc06da966dbb33b5bd4dd471961a8d28ecc373f.jpg');
+  margin-top :65px;
+padding-top: 9px;
+padding-bottom: 5px;
+margin-left: 215px;
+
+margin-right: 250px;
+border: 2px solid yellow;
+border-radius: 150px 150px 20px 20px ;
+box-shadow: 2px 5px 5px yellow;
+color:white;
+
+}
 .Hawking{
   font-size: 1.4em;
   opacity:0.95;
-  order:2;
+
   color:white;
   background-image:url('https://img.maxisciences.com/article/1280/astronomie/les-etoiles-sont-particulierement-observable-la-nuit-car-elle-degage-de-l-energie-lumineuse_9fc06da966dbb33b5bd4dd471961a8d28ecc373f.jpg'); 
   text-decoration: none;
@@ -246,13 +260,21 @@ box-shadow: 2px 5px 5px yellow;
 .Hawking1:hover{
   border:2px solid white;
 }
+.Hawking2:hover{
+  border:2px solid white;
+}
+.Hawking2:visited:hover
+{
 
+  color:white;
+}
+.Hawking:visited:hover
+{
+
+  color:white;
+}
 #couleur {
-order:1;
-
-padding-bottom: 5px 5px 5px 5px;
-margin:auto;
-border:3px solid silver;
+  border:3px solid silver;
 border-radius: 20px 20px 20px 20px ;
 background-color:black;
 color:white;
@@ -276,3 +298,70 @@ font-size: 1.5em;
 }
     
 
+@media screen and (max-width: 720px)
+{
+ body{
+
+   
+    height: 720px;
+    
+
+  }
+ #bloc-page{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+ }
+  #conteneurNav{
+    flex-direction: column;
+
+  }
+  #Conteneur2{
+    height: 150px;
+  margin-left:50px;
+  
+  }
+  #couleur{
+    margin-left:15px;
+  }
+  .ouvrirLeDosier{
+    margin-left: 5px;
+    padding-left: 5px;
+    margin-right: 70px;
+  }
+  #centrage{
+    display: none;
+  }
+    article{
+      display: none;
+
+    }
+    .video1{
+      margin-right: 50px;
+    }
+    video{
+  height:250px;
+
+  
+    }
+
+.Hawking1{
+margin-top: 250px;
+margin-right: 50px;
+margin-left: 30px
+
+  }
+.Hawking2{
+
+margin-left: 16px;
+margin-right: 16px;
+  }
+.Hawking{
+  display: none;
+}
+.recentrageOuvertureDeDossier{
+margin-left:15px;
+padding-bottom: 5px;
+}
+}
