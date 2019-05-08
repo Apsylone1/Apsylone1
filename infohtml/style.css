@@ -11,7 +11,7 @@
 body
 {
 	height:100%;
-	background-image: url("http://www.belatrixsf.com/blog/wp-content/uploads/2015/08/UX-developer-01.jpg");
+	background-image: url("image/infoBackground.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100%;
@@ -103,5 +103,12 @@ p{margin-right: 20px;
     	background-repeat: no-repeat;
    		background-size: cover;
    		height: 3000px;
+	}
+	#infoFabrice{
+		margin-top: 150px;
+		font-size: 2em;
+	}
+	#bordure{
+		margin-left: 38%;
 	}
 }
