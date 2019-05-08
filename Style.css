@@ -300,20 +300,20 @@ font-size: 1.5em;
 }
     
 
-@media screen and (max-width: 720px)
+@media screen and (max-width: 1100px)
 {
  body{
-
-   
-    height: 720px;
-    
-
-  }
- #bloc-page{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
    
+    height: 1900px;
+  
+
+  }
+ #bloc-page{
+  margin-top:400px;
+    margin-left:180px;   
  }
   #conteneurNav{
     flex-direction: column;
@@ -326,6 +326,7 @@ font-size: 1.5em;
   }
   #couleur{
     margin-left:15px;
+    font-size: 3em;
   }
   .ouvrirLeDosier{
     margin-left: 5px;
@@ -359,6 +360,9 @@ margin-left: 30px
 
 margin-left: 16px;
 margin-right: 16px;
+font-size: 1.5em;
+padding-left: 10px;
+padding-right: 10px;
   }
 .Hawking{
   display: none;
