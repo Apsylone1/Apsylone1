@@ -12,9 +12,9 @@ Body{
 .navHeader{
     text-decoration: none;
     background-color: orange;
-    border               : 3px double rgba(86, 86, 218, 0.959);
+    border : 3px double rgba(86, 86, 218, 0.959);
     box-shadow: 5px 7px;
-    border-radius        : 5px;
+    border-radius  : 5px;
 }
 
 #logo{
