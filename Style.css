@@ -315,22 +315,25 @@ font-size: 1.5em;
   margin-top:400px;
     margin-left:180px;   
  }
-  #conteneurNav{
-    flex-direction: column;
-     
+  #conteneurNav {
+margin-left: 250px;
   }
   .blanc{
     color: white; 
     
-    margin-left: 490px;
-  
+    
   }
   li{
-    margin-top: 15px;
+     margin-left: 50px;
+    color:blue;
     font-size: 1.6em;
   }
   .blanc:hover{
     font-size: 2em;
+  
+    opacity: 0.6;
+    text-transform: underline;
+
   }
   .blanc:visited {
   color: white;
@@ -372,11 +375,11 @@ font-size: 1.5em;
 .Hawking1{
 margin-top: 700px;
 margin-right:170px;
-margin-left: 30px
-
+margin-left: 30px;
+padding-top:25px;
   }
 .Hawking2{
-
+margin-top: 25px;
 margin-left: 16px;
 margin-right: 30px;
 font-size: 1.5em;
@@ -385,11 +388,11 @@ padding-right: 10px;
   }
   .hawkingBack{
 
-
-
+margin-top: 25px;
+font-size: 1.4em;
   }
 .Hawking{
-  display: none;
+ 
 }
 .recentrageOuvertureDeDossier{
 margin-left:15px;
