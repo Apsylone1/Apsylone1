@@ -305,13 +305,14 @@ font-size: 1.5em;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-   
+    background-image       : url('imagecss/cssbackgrounnd.jpg');
     height: 2200px;
-  
+  margin:0px;
+  padding: 0px;
 
   }
  #bloc-page{
-  margin-top:400px;
+  margin-top:600px;
     margin-left:180px;   
  }
   #conteneurNav {
