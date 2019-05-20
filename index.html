@@ -9,59 +9,42 @@ margin:0px;
 padding: 0px;
 
 }
+video#bgvid {
+  position: fixed; 
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+   z-index: -100;
+  background:url("video/backvide.mp4") no-repeat;
+  background-size: cover;
+}
+.ali{
+	text-align: center;
 
-video{
+  vertical-align:middle;
+}
+
+
+
+.texteV{
 	position:fixed;
-	background-size: cover;
-	width: 1400px;
-	
-}
-#first{
-	position: fixed;
-	margin-top: 30%;
-	margin-left:47%;
-}
-p{
+	margin-left:auto;
+	margin-right: auto;
+	margin-top:23.5%;
+	color:greenyellow;
 	font-size: 3em;
-
-
-}
-a{
-	color:white;
-}
-@media screen and (max-width: 1100px){
-body{
-	margin: 0px;
-	padding:0px;
-}
-video {
-	background-position: center;
-	width:3200px;
-	background-size: cover;
-	margin:0px;
-	padding: 0px;
 	
 }
-#first{
-	margin-top:65%;
-	margin-left:47%;
-}
-
-
-}
-
 
 </style>
 </head>
 <body>
-
-<video autoplay muted loop>
-<source src="video/backvide.mp4">
-</video>
-<div id="first">
-<p><a href="accueil.html">Venez</a></p>
-</div>
-
-
+		<video autoplay loop muted id="bgvid">
+				<source src="video/backvide.mp4" type="video/mp4">
+			  </video>
+			  <div class="ali"><a class="texteV" href="accueil.html">BIENVENUS</a></div>
 </body>
 </html>

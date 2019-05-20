@@ -49,7 +49,10 @@ background-size: cover;/*tail de l'image par rapport aux bloc*/
 
 #bloc-page
 {
-margin-right: 30px;
+margin: 0px;
+padding: 0px;
+display: flex;
+flex-wrap:wrap;
 
 }
 
@@ -57,13 +60,15 @@ nav
 {
 font-family   : 'kaushan_scriptregular';
 color                  : red;
-width                  : 70%;
-text-align             : center;
 
 
 }
 .blanc
 {color: red;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:space-between;
 
 }
 /*hover=lien survoler*/
@@ -129,6 +134,7 @@ font-weight            : normal;
   list-style-type       : none;
   display : flex;
   flex-direction:row;
+  flex-wrap:wrap;
   justify-content: space-around;
   font-size: 1.7em;
   margin-left:40px;
