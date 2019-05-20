@@ -63,12 +63,16 @@ color                  : red;
 
 
 }
+
 .blanc
 {color: red;
   display:flex;
   flex-direction:row;
   flex-wrap:wrap;
   justify-content:space-between;
+  text-align: center;
+  margin-left:50px;
+  
 
 }
 /*hover=lien survoler*/
