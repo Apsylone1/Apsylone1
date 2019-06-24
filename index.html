@@ -1,679 +1,791 @@
-<!doctype html>
-<html>
-    
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<!DOCTYPE html>
+<html lang="fr">
 <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <meta name="description" content="Le premier site de rencontre et de partage pour femme, homme ou famille, du bonheur de la vie et du plaisir de partager ! Des rencontres aux naturelles pour des relations fortes et intéressantes pour votre avenir. Tous les éléments pour vous aider à trouver du plaisir et de la détente sur partageetrencontre.com !" 
-        >
-        <meta name="Keywords" content="rencontre, partage, sociabilité, cohésion sociale, affinité, famille, détente, plaisir, dialogue, rencontres, site de rencontre, site de partage, affinitée"
-        >
-        <link rel="canonical" href="index.html" />
+	<!--===== Meta Tag =====-->
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="description" content="Fabrice - Personal Portfolio HTML Template">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="business, agency, blog, cv, creative, html, one page, personal, portfolio, resume, responsive, bootstrap, photography, designer, developer">
+	<meta name="author" content="root">
 
-        <title> Rencontre et Partage, site de rencontre et de partage pour des moments de détentes et de plaisir partager. </title>
+	 <!--	Css Links
+    ==================================================-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/jquery.pagepiling.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="fonts/flaticon.css">
+    <link rel="stylesheet" href="css/plugins.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/color.css" id="color-change">
 
-        <link rel="shortcut icon" href="favicon.ico" />
-        <link rel="stylesheet" href="dist/assets/css/ecolorencontre/tpl1/main.min.css">
-    </head>
+     <!-- Favicon 
+    ==================================================-->
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon.ico">
 
-    <body>
+      <!--	Title
+    ==================================================-->
+	<title>Fabrice - Personal Portfolio HTML Template</title>
 
-        
-        <header class="header">
-            <div class="container d-md-flex justify-content-between align-items-center">
-                <img
-                    class="header__logo d-block mx-auto mx-md-0 img-fluid mb-3 mb-md-0"
-                    src="dist/assets/img/ecolorencontre/tpl1/logos/logo-partageetrencontre.png"
-                    alt="Logo de Ecolorencontre"
-                >
-
-                <h5 class="header__description mx-md-3"><strong>Pour des rencontres et des moments de partages</strong></h5>
-
-                                    <div class="dropdown d-none d-md-block">
-                        <button class="btn btn-light dropdown-toggle" type="button" data-toggle="dropdown">
-                            Déjà membre ?                        </button>
-                       
-                    </div>
-                            </div>
-        </header>
-
-        <main>
-            <section class="section-form">
-                <div class="container">
-                    <div class="row justify-content-center justify-content-md-end">
-                        <div class="col-sm-9 col-md-7 col-lg-6 col-xl-5 ">
-                                                            <div class="card my-5">
-                                    <div class="card-body">
-                                        <div class="registration__form js-registration-form">
-                                            <form class="registration-form" id="ez-register-form-container5d0ec98a5d9fc">
-                                                <legend class="text-center text-uppercase">Inscription rapide</legend>
-                                            
-                                                <input name="channel_id" type="hidden" value="1">
-                                                            <script>
-                                                                if (!window.addEventListener) {
-                                                                    window.attachEvent("onmessage", "callBack");
-                                                                } else {
-                                                                    window.addEventListener("message", callBack, true);
-                                                                }
-                                                                function callBack(e) {
-                                                                    if (e.data && e.data.userFB) {
-                                                                        window.fbRegister(e.data.userFB, e.data.profileImages);
-                                                                    }
-                                                                }
-                                                            </script>
-                                                            <div class="form-group">
-                                                            </div>
-                                                            
-                                                <div class="form-group">
-                                                    <div class="input-group">
-                                                        <div class="input-group-prepend">
-                                                            <span class="input-group-text">
-                                                                <i class="fa fa-lg fa-fw fa-user"></i>
-                                                            </span>
-                                                        </div>
-                                                        <select class="form-control custom-select" name="genderSelect">
-                                                                                <option selected="" disabled="">Je suis</option>
-                                                                                        <option value="1">femme</option>
-                                                                                        <option value="2">homme</option>
-                                                                                            </select>
-                                                        <div class="invalid-feedback"></div>
-                                                    </div>
-                                                </div>
-                                                        <div class="form-group">
-                                                        <div class="input-group">
-                                                            <div class="input-group-prepend">
-                                                                <span class="input-group-text">
-                                                                    <i class="fa fa-fw fa-lg fa-calendar"></i>
-                                                                </span>
-                                                            </div>
-                                                            <select class="form-control custom-select" name="bornDate[year]">
-                                                                <option selected="" disabled="">Age</option>
-                                                                                        <option value="18">18 ans</option>
-                                                                                        <option value="19">19 ans</option>
-                                                                                        <option value="20">20 ans</option>
-                                                                                        <option value="21">21 ans</option>
-                                                                                        <option value="22">22 ans</option>
-                                                                                        <option value="23">23 ans</option>
-                                                                                        <option value="24">24 ans</option>
-                                                                                        <option value="25">25 ans</option>
-                                                                                        <option value="26">26 ans</option>
-                                                                                        <option value="27">27 ans</option>
-                                                                                        <option value="28">28 ans</option>
-                                                                                        <option value="29">29 ans</option>
-                                                                                        <option value="30">30 ans</option>
-                                                                                        <option value="31">31 ans</option>
-                                                                                        <option value="32">32 ans</option>
-                                                                                        <option value="33">33 ans</option>
-                                                                                        <option value="34">34 ans</option>
-                                                                                        <option value="35">35 ans</option>
-                                                                                        <option value="36">36 ans</option>
-                                                                                        <option value="37">37 ans</option>
-                                                                                        <option value="38">38 ans</option>
-                                                                                        <option value="39">39 ans</option>
-                                                                                        <option value="40">40 ans</option>
-                                                                                        <option value="41">41 ans</option>
-                                                                                        <option value="42">42 ans</option>
-                                                                                        <option value="43">43 ans</option>
-                                                                                        <option value="44">44 ans</option>
-                                                                                        <option value="45">45 ans</option>
-                                                                                        <option value="46">46 ans</option>
-                                                                                        <option value="47">47 ans</option>
-                                                                                        <option value="48">48 ans</option>
-                                                                                        <option value="49">49 ans</option>
-                                                                                        <option value="50">50 ans</option>
-                                                                                        <option value="51">51 ans</option>
-                                                                                        <option value="52">52 ans</option>
-                                                                                        <option value="53">53 ans</option>
-                                                                                        <option value="54">54 ans</option>
-                                                                                        <option value="55">55 ans</option>
-                                                                                        <option value="56">56 ans</option>
-                                                                                        <option value="57">57 ans</option>
-                                                                                        <option value="58">58 ans</option>
-                                                                                        <option value="59">59 ans</option>
-                                                                                        <option value="60">60 ans</option>
-                                                                                        <option value="61">61 ans</option>
-                                                                                        <option value="62">62 ans</option>
-                                                                                        <option value="63">63 ans</option>
-                                                                                        <option value="64">64 ans</option>
-                                                                                        <option value="65">65 ans</option>
-                                                                                        <option value="66">66 ans</option>
-                                                                                        <option value="67">67 ans</option>
-                                                                                        <option value="68">68 ans</option>
-                                                                                        <option value="69">69 ans</option>
-                                                                                        <option value="70">70 ans</option>
-                                                                                        <option value="71">71 ans</option>
-                                                                                        <option value="72">72 ans</option>
-                                                                                        <option value="73">73 ans</option>
-                                                                                        <option value="74">74 ans</option>
-                                                                                        <option value="75">75 ans</option>
-                                                                                        <option value="76">76 ans</option>
-                                                                                        <option value="77">77 ans</option>
-                                                                                        <option value="78">78 ans</option>
-                                                                                        <option value="79">79 ans</option>
-                                                                                        <option value="80">80 ans</option>
-                                                                                        <option value="81">81 ans</option>
-                                                                                        <option value="82">82 ans</option>
-                                                                                        <option value="83">83 ans</option>
-                                                                                        <option value="84">84 ans</option>
-                                                                                        <option value="85">85 ans</option>
-                                                                                        <option value="86">86 ans</option>
-                                                                                        <option value="87">87 ans</option>
-                                                                                        <option value="88">88 ans</option>
-                                                                                        <option value="89">89 ans</option>
-                                                                                        <option value="90">90 ans</option>
-                                                                                        <option value="91">91 ans</option>
-                                                                                        <option value="92">92 ans</option>
-                                                                                        <option value="93">93 ans</option>
-                                                                                        <option value="94">94 ans</option>
-                                                                                        <option value="95">95 ans</option>
-                                                                                        <option value="96">96 ans</option>
-                                                                                        <option value="97">97 ans</option>
-                                                                                        <option value="98">98 ans</option>
-                                                                                        <option value="99">99 ans</option>
-                                                                                </select>
-                                                            <div class="invalid-feedback"></div>
-                                                        </div>
-                                                    </div>
-                                                    
-                                                <div class="form-group">
-                                                    <div class="input-group">
-                                                        <div class="input-group-prepend">
-                                                            <span class="input-group-text"><i class="fa fa-fw fa-lg fa-envelope"></i></span>
-                                                        </div>
-                                                        <input type="email" name="email" class="form-control" placeholder="Mon Email" data-toggle="tooltip">
-                                                        <div class="invalid-feedback"></div>
-                                                        <div class="js-tooltip-content d-none">
-                                                            Cliquez dans l'email à la fin de l'inscription et augmentez vos chances de rencontres !                <ul>
-                                                                <li>Alertes contacts en temps réel</li>
-                                                                <li>Liste des membres qui s'interessent à vous</li>
-                                                                <li>Offres spéciales</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            
-                                                <div class="form-group">
-                                                    <div class="input-group">
-                                                        <div class="input-group-prepend">
-                                                            <span class="input-group-text"><i class="fa fa-fw fa-lg fa-pencil"></i></span>
-                                                        </div>
-                                                        <input type="text" name="displayName" class="form-control" placeholder="Mon pseudo" data-toggle="tooltip">
-                                                        <div class="invalid-feedback"></div>
-                                                        <div class="js-tooltip-content d-none">
-                                                            Choisissez un pseudo sous lequel vous apparaîtrez sur le site et qui vous permettra de vous connecter            </div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group">
-                                                    <div class="custom-control custom-checkbox small">
-                                                        <input type="checkbox" class="custom-control-input" id="cgu" name="cgu">
-                                                        <label class="custom-control-label" for="cgu">
-                                                            Je suis majeur(e) et j'accepte les régles de fabrice            </label>
-                                                        <div class="invalid-feedback"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group d-none">
-                                                    <div class="custom-control custom-checkbox small">
-                                                        <input type="checkbox" class="custom-control-input" id="coupleCGU" name="coupleCGU">
-                                                        <label class="custom-control-label" for="coupleCGU">
-                                                            J'accepte que <span class="couple-title" title="Une donnée personnelle sensible est une information concernant l’origine raciale ou ethnique, les opinions politiques, philosophiques ou religieuses, l’appartenance syndicale, la santé ou la vie sexuelle">mes données personnelles sensibles</span> soient collectées et traitées par le site partageetrencontre.com                    </label>
-                                                        <div class="invalid-feedback">Vous devez accepter les CGU</div>
-                                                    </div>
-                                                </div>
-                                               
-                                                <button type="submit" class="btn btn-success btn-lg btn-block text-uppercase" name="submit">
-                                                    Démarrer la recherche    </button>
-                                            
-                                                <div class="form_email_notification_information">
-                                                        </div>
-                                            </form>                                       </div>
-
-                                        <div class="small text-muted text-justify mt-2">
-                                                                                        <div id="cgu-datas"><p>Les données collectées au cours de votre inscription sont destinées à la société NouméaData, responsable du traitement ainsi qu'à ses partenaires. Elles sont destinées à vous proposer des rencontres en adéquation avec votre personnalité. Vous avez le droit de nous interroger, de rectifier, compléter, mettre à jour, verrouiller ou supprimer les données vous concernant, de vous opposer à leur traitement ou à leur utilisation à des fins de prospection commerciale à l'adresse mentionnée dans les CGUV.</p></div>                                        </div>
-                                    </div>
-                                </div>
-                                                    </div>
-                    </div>
-                </div>
-            </section>
-
-            
-            <section>
-                <div class="container">
-                    <h3 class="px-2">
-                        <i class="fa fa-clock-o text-primary"></i>
-                        En ligne actuellement                    </h3>
-                    <div class="row no-gutters mb-3">
-                                                    <div class="col-6 col-md-3 col-lg">
-                                <img class="img-thumbnail d-block mx-auto img-fluid js-animate-form"
-                                    src="dist/assets/img/ecolorencontre/tpl1/profiles/1.jpg" alt="photo"
-                                >
-                            </div>
-                                                    <div class="col-6 col-md-3 col-lg">
-                                <img class="img-thumbnail d-block mx-auto img-fluid js-animate-form"
-                                    src="dist/assets/img/ecolorencontre/tpl1/profiles/2.jpg" alt="photo"
-                                >
-                            </div>
-                                                    <div class="col-6 col-md-3 col-lg">
-                                <img class="img-thumbnail d-block mx-auto img-fluid js-animate-form"
-                                    src="dist/assets/img/ecolorencontre/tpl1/profiles/3.jpg" alt="photo"
-                                >
-                            </div>
-                                                    <div class="col-6 col-md-3 col-lg">
-                                <img class="img-thumbnail d-block mx-auto img-fluid js-animate-form"
-                                    src="dist/assets/img/ecolorencontre/tpl1/profiles/4.jpg" alt="photo"
-                                >
-                            </div>
-                                                    <div class="col-6 col-md-3 col-lg">
-                                <img class="img-thumbnail d-block mx-auto img-fluid js-animate-form"
-                                    src="dist/assets/img/ecolorencontre/tpl1/profiles/5.jpg" alt="photo"
-                                >
-                            </div>
-                                                    <div class="col-6 col-md-3 col-lg">
-                                <img class="img-thumbnail d-block mx-auto img-fluid js-animate-form"
-                                    src="dist/assets/img/ecolorencontre/tpl1/profiles/6.jpg" alt="photo"
-                                >
-                            </div>
-                                                    <div class="col-6 col-md-3 col-lg">
-                                <img class="img-thumbnail d-block mx-auto img-fluid js-animate-form"
-                                    src="dist/assets/img/ecolorencontre/tpl1/profiles/7.jpg" alt="photo"
-                                >
-                            </div>
-                                                    <div class="col-6 col-md-3 col-lg">
-                                <img class="img-thumbnail d-block mx-auto img-fluid js-animate-form"
-                                    src="dist/assets/img/ecolorencontre/tpl1/profiles/8.jpg" alt="photo"
-                                >
-                            </div>
-                                            </div>
-                </div>
-            </section>
-
-            <section>
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-6 text-center">
-                            <h3 class="mb-3 text-primary">Bienvenue sur Rencontre et Partage !</h3>
-
-                            <p>rencontreetpartage.com c'est quoi ?</p>
-
-                            <p>
-                                Le premier site de rencontre et de partage pour famille, amie, connaissance ou non, afin de se détendre et partager les plaisirs de la vie ! Des rencontres aux naturelles pour des relations fortes et intéressantes. Tous les éléments pour vous aider à trouver la meilleure solution pour partager à plusieurs près de chez vous sur rencontreetpartage.com ! </p>
-
-                            <p>Alors n'attendez plus pour vous inscrire !</p>
-
-                            <h5 class="text-primary">
-                                Facilité d'utilisation, convivialité, Suivis des préparation, cadeau pour les meilleures préparations.                            </h5>
-
-                            <p>
-                                Pour dialoguer entre membres, nous mettons à votre disposition plusieurs applications comme le tchat collectif, la messagerie interne et les cadeaux virtuels pour appâter vos amies. Vos idées pourront être lu par l'ensemble des membres connecté ! Partagez vos humeurs, vos envies,vos prochain projet,  vos coups de cœur, vos témoignages, de quoi faire des centaines de rencontres pour vos plaisirs partager et augmenter votre popularité grâce à des cadeaux que vos rencontres vous auront décerner suite à vos journées de partage !                          </p>
-                        </div>
-
-                        <div class="col-md-6">
-                            <img class="img-fluid d-block mx-auto mb-3 w-100" src="dist/assets/img/ecolorencontre/tpl1/photo.jpg"
-                                alt="photo"
-                            >
-
-                            <ul class="list-unstyled">
-                                <li class="bg-primary text-white p-2 mb-2">
-                                    <i class="fa fa-caret-right fa-lg"></i>
-                                    Gestion de votre profil et de vos annonces.                                </li>
-                                <li class="bg-primary text-white p-2 mb-2">
-                                    <i class="fa fa-caret-right fa-lg"></i>
-                                    Album avec photos publiques des évènements.                              </li>
-                                <li class="bg-primary text-white p-2 mb-2">
-                                    <i class="fa fa-caret-right fa-lg"></i>
-                                    Messagerie personnelle pour dialoguer en collectif.                                 </li>
-                                <li class="bg-primary text-white p-2 mb-2">
-                                    <i class="fa fa-caret-right fa-lg"></i>
-                                    Tchattez en direct avec les membres connectés et en collectif.                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <footer class="footer">
-            <div class="container">
-                
-                <div class="small text-center">
-                    &copy; copyright rencontreetpartage.com 2019                    
-<div>
-    
-
-    
-    <div class="modal fade" id="modal-cgu" tabindex="-1" role="dialog">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body text-left">
-                    
-    <style>
-    #tos-container {
-        font-size: 13px !important;
-        text-align: left !important;
-    }
-    #tos-container h1 {
-        text-align: left !important;
-        font-size: 17px !important;
-        margin: 10px 0 !important;
-    }
-    #tos-container h2 {
-        font-size: 15px !important;
-        margin: 10px 0 !important;
-    }
-    #tos-container h3 {
-        font-size: 14px !important;
-        margin: 10px 0 !important;
-    }
-    #tos-container h4 {
-        font-size: 13px !important;
-        margin: 10px 0 !important;
-    }
-    #tos-container ul {
-        margin: 8px 0 !important;
-        list-style: inherit !important;
-        padding: 5px !important;
-        margin-left: 12px !important;
-    }
-    #tos-container ul li {
-        margin: 2px 0 !important;
-    }
-    #tos-container blockquote {
-        font-size: 13px !important;
-        margin: 10px 0 !important;
-        border-left: 1px solid !important;
-        padding-left: 10px !important;
-    }
-
-    #tos-container p {
-        margin-bottom: 1rem;
-    }
-    </style>
-    
-            <div id="tos-container">
-               
-                        </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">
-                        Fermer                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="modal-privacy-policy" tabindex="-1" role="dialog">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body text-left">
-                    
-    <style>
-    #tos-container {
-        font-size: 13px !important;
-        text-align: left !important;
-    }
-    #tos-container h1 {
-        text-align: left !important;
-        font-size: 17px !important;
-        margin: 10px 0 !important;
-    }
-    #tos-container h2 {
-        font-size: 15px !important;
-        margin: 10px 0 !important;
-    }
-    #tos-container h3 {
-        font-size: 14px !important;
-        margin: 10px 0 !important;
-    }
-    #tos-container h4 {
-        font-size: 13px !important;
-        margin: 10px 0 !important;
-    }
-    #tos-container ul {
-        margin: 8px 0 !important;
-        list-style: inherit !important;
-        padding: 5px !important;
-        margin-left: 12px !important;
-    }
-    #tos-container ul li {
-        margin: 2px 0 !important;
-    }
-    #tos-container blockquote {
-        font-size: 13px !important;
-        margin: 10px 0 !important;
-        border-left: 1px solid !important;
-        padding-left: 10px !important;
-    }
-
-    #tos-container p {
-        margin-bottom: 1rem;
-    }
-    </style>
-    
-            <div id="tos-container">
-               
-                        </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">
-                        Fermer                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    - <a href="#" data-toggle="modal" data-target="#modal-legal-notice">Mentions légales</a>
-
-    <div class="modal fade" id="modal-legal-notice" tabindex="-1" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body text-left">
-                    
-    <style>
-    #tos-container {
-        font-size: 13px !important;
-        text-align: left !important;
-    }
-    #tos-container h1 {
-        text-align: left !important;
-        font-size: 17px !important;
-        margin: 10px 0 !important;
-    }
-    #tos-container h2 {
-        font-size: 15px !important;
-        margin: 10px 0 !important;
-    }
-    #tos-container h3 {
-        font-size: 14px !important;
-        margin: 10px 0 !important;
-    }
-    #tos-container h4 {
-        font-size: 13px !important;
-        margin: 10px 0 !important;
-    }
-    #tos-container ul {
-        margin: 8px 0 !important;
-        list-style: inherit !important;
-        padding: 5px !important;
-        margin-left: 12px !important;
-    }
-    #tos-container ul li {
-        margin: 2px 0 !important;
-    }
-    #tos-container blockquote {
-        font-size: 13px !important;
-        margin: 10px 0 !important;
-        border-left: 1px solid !important;
-        padding-left: 10px !important;
-    }
-
-    #tos-container p {
-        margin-bottom: 1rem;
-    }
-    </style>
-    
-            <div id="tos-container">
-                
-                        </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">
-                        Fermer                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-                           - <a href="https://www.prelinker.com/">Affiliation</a>
-                            - <a href="https://contactvert.ecolorencontre.com/f/public/contact">Contact</a>
-    
-</div>
-<style>
-    .very-small { font-size:9px; }
-</style>
-<div class="very-small">
-    <span class="very-small">
-        PhocéeNet -  564 avenue du prado - 13008 MARSEILLE – France    </span>
-</div>
-                </div>
-            </div>
-
-            <script src="dist/assets/js/ecolorencontre/tpl1/main.min.js"></script>
-            <script src="js/jquery.colorbox-min.js"></script>
-<link rel="stylesheet" href="css/colorbox65e9.css?v0.1"/>
-<link rel="stylesheet" href="css/cookiesdb27.css?v0.4"/>
-<link rel="stylesheet" href="css/tarteaucitron959d.css?20180214"/>
-<script src="../secure.%d7%a1%d7%98%d7%98%d7%99.%d7%a7%d7%95%d7%9d/js/root/tarteaucitron/tarteaucitron.js"></script><script type="text/javascript">
-$(document).ready(function(){
-	$(document).on("mouseover", "#tarteaucitronPersonalize", function() { $(this).attr("onclick", "tarteaucitron.userInterface.respondAll(true)");});
-	tarteaucitron.init({"hashtag":"#tarteaucitron","highPrivacy":true,"orientation":"bottom","adblocker":false,"showAlertSmall":false,"cookieslist":true,"removeCredit":false});
-	
-	(tarteaucitron.job = tarteaucitron.job || []);
-	tarteaucitron.services.dating = {
-                "key": "dating",
-                "type": "support",
-                "name": "Notre site",
-                "uri": "/f/public/cookies",
-                "needConsent": true,
-                "cookies": ["majeur", "cookieDisclaimer"],
-                "js": function () {
-                    if (typeof window.cookieWait !== "undefined" && window.cookieWait !== null) {
-                        for(var i = 0; i < window.cookieWait.length; i++) {
-                            document.cookie = window.cookieWait[i][0] + "=" + window.cookieWait[i][1] + "; expires=" + new Date(Date.now() + window.cookieWait[i][2]) + "; path=" + window.cookieWait[i][3] + "; domain=" + window.cookieWait[i][4];
-                        };
-                    }
-                },
-            };
-tarteaucitron.services.iovation = {
-                "key": "iovation",
-                "type": "support",
-                "name": "Protection contre la fraude",
-                "uri": "/f/public/cookies",
-                "needConsent": true,
-                "cookies": ["token"],
-                "js": function () {
-                    
-                    
-                    if (typeof io_operation == "undefined") { var io_operation = "ioBegin"; }            
-                    if (typeof io_bbout_element_id == "undefined") { var io_bbout_element_id = "ioBB"; }      
-                    if (typeof io_install_stm == "undefined") { var io_install_stm = false; }             
-                    if (typeof io_exclude_stm == "undefined") { var io_exclude_stm = 12; }
-                    if (typeof io_install_flash == "undefined") { var io_install_flash = false; }
-                    if (typeof io_flash_needs_update_handler == "undefined") { var io_flash_needs_update_handler = ""; }
-                    if (typeof io_install_flash_error_handler == "undefined") { var io_install_flash_error_handler = ""; }
-                    if (typeof io_max_wait == "undefined") { var io_max_wait = 5000; }
-
-                    tarteaucitron.addScript("../mpsnare.iesnare.com/snare.js", "", function () {
-
-                    });
-                },
-            };
-	(tarteaucitron.job = tarteaucitron.job || []).push("dating");
-	(tarteaucitron.job = tarteaucitron.job || []).push("iovation");
-	(tarteaucitron.job = tarteaucitron.job || []).push("gajs");
-	(tarteaucitron.job = tarteaucitron.job || []).push("analytics");
-	(tarteaucitron.job = tarteaucitron.job || []).push("facebook");
-});
-</script>
-<script type="text/javascript">
-cookieWait = null</script>
-<script>
-    tarteaucitron.user.bypass = true;    var j = jQuery.noConflict();
-    var $ = j;
-    j(document).on('click', '#tarteaucitronDisclaimerAlert a', function() {
-        var dim = window.screen.width < 800 || window.screen.height < 500 ? {"width" : window.screen.width, "height": window.screen.height} : {"width" : 800, "height": 500};
-        var options = {"html": "<div id=\"cookieLegalDocument\" class=\"default-box\">\n<script>tarteaucitron.userInterface.closePanel();<\/script>\n<div class=\"title_strong\">Quels cookies sont utilis\u00e9s par notre site ?<\/div><p class=\"paragraph\"><button class=\"default\" onclick=\"tarteaucitron.userInterface.openPanel()\">Param\u00e9trer les cookies<\/button><\/p><p class=\"paragraph\">Lors de l\u2019utilisation de notre site, diff\u00e9rents types de cookies sont d\u00e9pos\u00e9s sur notre site, par la Soci\u00e9t\u00e9 ou des tiers, tels que :<\/p><div class=\"title\">Cookies d\u00e9pos\u00e9s par notre site<\/div><p class=\"paragraph\">Ces cookies sont li\u00e9s au fonctionnement de notre site internet. En l\u2019absence de certains de ces cookies, vous ne pourriez pas utiliser correctement notre site et l\u2019ensemble de ses fonctionnalit\u00e9s.<\/p><div class=\"sub_title\">1. Cookies d\u2019authentification<\/div><p class=\"paragraph\">Les cookies d\u2019authentification permettent aux membres de pouvoir se reconnecter plus facilement. Ce cookie est supprim\u00e9 si le membre se d\u00e9connecte du site, il devra alors ressaisir ses identifiants pour se reconnecter. Pour la s\u00e9curit\u00e9 des donn\u00e9es personnelles de nos membres, aucun mot de passe ou identifiant personnel n\u2019est visible dans ce cookie.<\/p><div class=\"sub_title\">2. Cookies de session<\/div><p class=\"paragraph\">Les cookies de session sont des cookies qui permettent notamment d\u2019acc\u00e9der \u00e0 la partie membre de notre site apr\u00e8s que le membre se soit authentifi\u00e9. Ces cookies sont automatiquement supprim\u00e9s par le navigateur du membre lorsque le membre n\u2019utilise pas le site pendant plus d\u2019une heure.<\/p><p class=\"paragraph\">Ces cookies peuvent \u00eatre de premi\u00e8re partie ou de tiers partie.<\/p><div class=\"sub_title\">3. Cookies publicitaires<\/div><p class=\"paragraph\">Les cookies publicitaires nous permettent d\u2019afficher \u00e0 nos membres des publicit\u00e9s cibl\u00e9es selon leur \u00e2ge, leur sexe, leur localisation, la langue choisie etc. Ils nous permettent \u00e9galement de proposer des offres susceptibles d\u2019int\u00e9ress\u00e9es nos membres en fonction de leurs affinit\u00e9s et de leurs centres d\u2019int\u00e9r\u00eat.<\/p><div class=\"sub_title\">4. Cookies de statistiques de visites<\/div><p class=\"paragraph\">Les cookies de statistiques de visites nous permettent de comptabiliser le nombre de pages affich\u00e9es par nos visiteurs et nos membres au cours de leur navigation sur notre site.<\/p><div class=\"sub_title\">5. Cookie de pr\u00e9f\u00e9rence de langue<\/div><p class=\"paragraph\">Le cookie de pr\u00e9f\u00e9rence de langue nous permet de garder en m\u00e9moire la langue dans laquelle nos membres souhaitent naviguer sur notre site.<\/p><div class=\"title\">Cookies d\u00e9pos\u00e9s par des tiers<\/div><p class=\"paragraph\">Ces cookies sont mis en place par un domaine diff\u00e9rent de notre site internet. Nous ne g\u00e9rons pas ce type de cookies qui rel\u00e8vent des politiques de cookies et de protection de la vie priv\u00e9e de ces tiers, qui agissent pour leur propre compte. Les informations personnelles contenues dans ces cookies ne sont accessibles que par ces tiers. A cette occasion, nous ne communiquons aucune donn\u00e9e personnelle.<\/p><div class=\"sub_title\">1. Cookies de partage (r\u00e9seaux sociaux)<\/div><p class=\"paragraph\">Les r\u00e9seaux sociaux (Facebook, Twitter) permettent aux membres de notre site de partager des donn\u00e9es avec d\u2019autres membres. Lorsque vous cliquez sur le bouton de partage, Facebook ou Twitter d\u00e9pose un cookie sur votre terminal. Ce cookie permet, lorsque vous \u00eates connect\u00e9s \u00e0votre compte Facebook ou Twitter et que vous naviguez en m\u00eame temps sur notre site, de relier \u00e0 votre compte Facebook ou Twitter les donn\u00e9es consult\u00e9es sur notre site.<\/p><div class=\"sub_title\">2. Cookies de mesure d\u2019audience<\/div><p class=\"paragraph\">Les cookies de mesure d\u2019audience utilis\u00e9s sur notre site sont d\u00e9pos\u00e9s par notre partenaire commercial Google Analytics. Ils nous permettent d\u2019analyser la fr\u00e9quentation et la performance de notre site notamment en \u00e9tudiant l\u2019utilisation des diff\u00e9rents \u00e9l\u00e9ments de notre site (pages affich\u00e9es, navigation etc.) de sorte \u00e0 am\u00e9liorer l\u2019int\u00e9r\u00eat et l\u2019ergonomie de notre pour vous offrir la meilleure prestation possible.<\/p><\/div>", "width": dim.width - 25, "height": dim.height - $("#tarteaucitronDisclaimerAlert").height()*1.5, "close": "&times;", "opacity": 0.6};
-        if (window.screen.width < 800 || window.screen.height < 500) {
-            options.top = 10;
-        }
-        j.colorbox(options);
-        return false;
-    });
-</script>
-            
-    <script  type="text/javascript">
-      var _gaAccount = 'UA-6374698-50';
-      var _gaDomaineName = document.domain.split('.').slice(-2).join('.');
-      var _gaq = _gaq || [];
-      _gaq.push(
-        ['_setAccount', _gaAccount],
-        ['_setDomainName', _gaDomaineName],
-        ['_trackPageview']
-      );
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
+</head>
+<body id="top" class="page-load">
+	<!--	Preloader
+	==================================================-->
+	<div class="preloader">
+		<div class="lds-css ng-scope">
+			<div class="lds-spinner" style="100%;height:100%">
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+	</div>
+	<!-- Color Settings Start
+	==================================================-->
+	<div class="color-panel">
+		<div class="on-panel color_white bg_primary">
+			<div class="text-center icon-spinner">
+			  <i class="fa fa-cog fa-spin fa-3x fa-fw"></i>
+			</div>
+		</div>
+		<div class="panel-box">
+			<span class="panel-title">Theme Colors</span>		
+		</div>
+		<div class="template_style">
+			<span class="layout_title">Template Style</span>
+			<ul>
+				<li><a class="btn_link" href="index.html" target="blank">White Version</a></li>
+				<li><a class="btn_link" href="index-1.html" target="blank">Black Version</a></li>
+			</ul>
+		</div>
+	</div>
+	<!--  Color Settings End
+	==============================================-->
+	<!--	Start Sidebar
+	==================================================-->
+	<div id="mysidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="flaticon-close-button"></i></a>
+	  <img class="nav-logo" src="images/logo/291.png" alt="image">
+	  	<ul id="menu">
+			<li data-menuanchor="page1" class="active"><a href="#page1">Home</a></li>
+			<li data-menuanchor="page2"><a href="#page2">A propos de moi.</a></li>
+			<li data-menuanchor="page3"><a href="#page3">Résumer</a></li>
+			<li data-menuanchor="page4"><a href="#page4">Services</a></li>
+			<li data-menuanchor="page5"><a href="#page5">Team</a></li>
+			<li data-menuanchor="page6"><a href="#page6">Testimonial</a></li>
+			<li data-menuanchor="page7"><a href="#page7">Contact</a></li>
+		</ul>
+	</div>
+	<div class="sidebar bg_primary">
+		<div class="logo text-center"><a href="#page1"><strong>DEV WEB</strong></a></div>
+		<span style="cursor:pointer" onclick="openNav()">&#9776;</span>
+		<div class="socal_media mt_60">
+			<ul>
+				<li><a href="https://www.facebook.com/profile.php?id=100010364235108"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+				<li><a href="https://twitter.com/DUJARDINFabric3"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+				<li><a href="https://www.linkedin.com/in/fabrice-dujardin-246066175/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+			</ul>
+		</div>			
+	</div>
+	<div class="contact_massage bg_primary">
+		<a href="#page9"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+	</div>
+	<!--	End Sidebar
+	=======================================================-->
+	<div id="pagepiling">
+	    <!--	Start Slider
+		===================================================-->
+		<div id="slider" class="section bg_white">
+			<div class="line-container">
+				<div class="row">
+					<div class="col-md-3 col-lg-3"><div class="liner"></div></div>
+					<div class="col-md-3 col-lg-3"><div class="liner"></div></div>
+					<div class="col-md-3 col-lg-3"><div class="liner"></div></div>
+					<div class="col-md-3 col-lg-3"><div class="liner"></div></div>
+				</div>
+			</div>
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			  <ol class="carousel-indicators">
+			    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			  </ol>
+			  <div class="carousel-inner overlay_three">
+			    <div class="carousel-item active">
+			      <div class="overlay_one pattan"><img  class="" src="images/slider/01.jpg" alt="slide image"></div>
+			      <div class="carousel-caption">
+				    <h1 class="mb_20">Solution géniale<br> pour <span class="color_default">vous </span></h1>
+				    <p class="mb_20">
+							Un service de qualité à l'écoute de vos besoins. </p>
+				    <a class="btn btn-default" href="#">C'est parti !</a>
+				  </div>
+			    </div>
+			    <div class="carousel-item">
+			      <div class="overlay_one pattan"><img src="images/slider/02.jpg" alt="slide image"></div>
+			      <div class="carousel-caption">
+				    <h1 class="mb_20">
+							Solution géniale<br> pour <span class="color_default">vous </span></h1>
+				    <p class="mb_20">De la motivation à en faire mordre la poussière vos concurrent. </p>
+				    <a class="btn btn-default" href="#">C'est parti !</a>
+				  </div>
+			    </div>
+			    <div class="carousel-item">
+			      <div class="overlay_one pattan"><img src="images/slider/03.jpg" alt="slide image"></div>
+			      <div class="carousel-caption">
+				    <h1 class="mb_20">Solution géniale<br> pour <span class="color_default">vous </span></h1>
+				    <p class="mb_20">Une formation suivie par les meilleurs.</p>
+				    <a class="btn btn-default" href="https://www.cci.nc/">Info</a>
+				  </div>
+			    </div>
+			  </div>
+			</div>
+		</div>
+	    <!--	End Slider
+		===================================================-->
+		<!--	Start About
+		===================================================-->
+	    <div id="about" class="section bg_white pp-scrollable">
+	    	<div class="container-fluid">
+	    		<div class="row">
+	    			<div class="about2">
+	    				<div class="col-md-12 col-lg-12">
+	    					<div class="row">
+	    						<div class="col-md-4 col-lg-4">
+	    							<div class="overlay_one"><img src="images/about/01.jpg" alt="image"></div>
+	    						</div>
+	    						<div class="col-md-8 col-lg-8">
+	    							<div class="about_myself pb_60">
+	    								<!--	Start Title
+	    								================================-->
+	    								<div class="main_title my_60">
+											<h2 class="title color_primary">À propos de moi</h2>
+											<p class="mt_15">Je suis né en  Nouvelle-Calédonie . J'ai vécu mon enfance à Saint-Michel au Mont-Dore .</p>											
+										</div>
+										<!--	End Title
+	    								================================-->
+										<div class="row">
+		    								<div class="col-md-6 col-lg-6">
+												<div class="myself color_secondery">
+													<p>Depuit petit j'ai été nourri de l'informatique , l'adoration de se monde me fait rêver chaque matin quand je me lève et chaque soir quand je me couche . Pouvoir avoir la chance de contribuer à l'avancer dans ce domaine, me donne chaque jours de plus en plus de force .</p>
+													
+													<p class="pt_30">je m'appelle Fabrice Dujardin et bientôt je toucherai les étoiles .</p>
+												</div>
+				    						</div>
+				    						<div class="col-md-6 col-lg-6">
+				    							<div class="personal_info">
+				    								<ul>
+				    									<li><span class="color_secondery">Nom :</span> Fabrice Dujardin</li>
+														<li><span class="color_secondery">Email :</span> f.dujardin@cci-formation.nc</li>
+														<li><span class="color_secondery">Téléphone :</span> 97.58.16</li>
+														<li><span class="color_secondery">Date d'anniversaire :</span> 23 Mars 1992</li>
+														<li><span class="color_secondery"> Group Sanguin :</span> A+</li>
+														<li><span class="color_secondery">Address :</span> 150 saint-michel mont-dore Nouvelle-calédonie</li>		
+				    								</ul>
+				    							</div>
+				    						</div>
+		    							</div>
+	    							</div>
+	    						</div>
+	    					</div>	
+	    				</div>
+	    			</div>
+	    		</div>
+	    	</div>
+	    </div>
+	    <!--	End About
+		===================================================-->
+		<!--	Start Education and Experience
+		===================================================-->
+	    <div id="education" class="section bg_white pp-scrollable">
+	    	<div class="container-fluid">
+	    		<div class="row">
+	    			<div class="col-md-12 col-lg-12">
+	    				<div class="education_experience ml_105">
+	    					<!--	Start Title
+	    					================================-->
+		    				<div class="main_title my_60">
+								<h2 class="title color_primary">Compétence & Experience</h2>
+								<p class="mt_15">L’art de la renaissance  </p>											
+							</div>
+							<!--	End Title
+	    					================================-->
+		    				<ul class="nav nav-pills pb_60" id="pills-tab" role="tablist">
+							  <li class="nav-item">
+							    <a class="btn btn-default active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Experience</a>
+							  </li>
+							  <li class="nav-item mx_10">
+							    <a class="btn btn-default" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Compétence</a>
+							  </li>
+							</ul>
+							<div class="tab-content" id="pills-tabContent">
+							  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+						  		<div class="company pb_60">
+								  	<div class="row">
+								  		<div class="col-md-12 col-lg-4">
+								  			<h1 class="color_lightgray font-weight-bold">01.</h1>
+								  			<h4 class="color_primary font-weight-bold">Travailler dans l’entreprise “BB Transport”</h4>
+								  			<span class="color_secondery">2018</span>
+								  		</div>
+								  		<div class="col-md-12 col-lg-4">
+								  			<p>Transport de marchandise sur le territoire de NC </p>
+								  		</div>
+								  		<div class="col-md-12 col-lg-4">
+								  			<img src="images/education/01.jpg" alt="image">
+								  		</div>
+							  		</div>
+							  	</div>
+							  	<div class="company pb_60">
+							  		<div class="row">
+								  		<div class="col-md-12 col-lg-4">
+								  			<p>Déménagement sur secteur de nouméa </p>
+								  		</div>
+								  		<div class="col-md-12 col-lg-4">
+								  			<img src="images/education/02.jpg" alt="image">
+								  		</div>
+								  		<div class="col-md-12 col-lg-4">
+								  			<h1 class="color_lightgray font-weight-bold">02.</h1>
+								  			<h4 class="color_primary font-weight-bold">Travailler dans l’entreprise “City-expresse”</h4>
+								  			<span class="color_secondery">2018</span>
+								  		</div>
+								  	</div>
+							  	</div>
+							  	<div class="company pb_60">
+							  		<div class="row">
+							  			<div class="col-md-12 col-lg-4">
+								  			<img src="images/education/03.jpg" alt="image">
+								  		</div>
+								  		<div class="col-md-12 col-lg-4">
+								  			<h1 class="color_lightgray font-weight-bold">03.</h1>
+								  			<h4 class="color_primary font-weight-bold">Travailler dans l’entreprise “ARMEE FRANCAISE”</h4>
+								  			<span class="color_secondery">2010</span>
+								  		</div>
+								  		<div class="col-md-12 col-lg-4">
+								  			<p>Poseur de pneumatique,recreusage et rechapage(VL,PL,SPL et avant blindé)</p>
+												<p>Chauffeur militaire (permis A2,A,B,C,E)</p>
+												<p>Entretien mécanique des engins militaires</p>
+								  		</div>
+								  	</div>
+							  	</div>
+							  </div>
+							  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+							  	<div class="company pb_60">
+							  		<div class="row">
+								  		<div class="col-md-12 col-lg-4">
+								  			<img src="images/education/04.jpg" alt="image">
+								  		</div>
+								  		<div class="col-md-12 col-lg-4">
+								  			<p>Seul ou accompagner je me forme pour devenir bon dans mon domaine ! Devenir Développeur Web ces plus qu’un métier c'est une passion.</p>
+								  			
+								  		</div>
+								  		<div class="col-md-12 col-lg-4">
+								  			<h1 class="color_lightgray font-weight-bold">01.</h1>
+								  			<h4 class="color_primary font-weight-bold">Se forme en “HTML/CSS/java script”</h4>
+								  			<span class="color_secondery">2019</span>
+								  		</div>
+								  	</div>
+							  	</div>
+							  	<div class="company pb_60">
+							  		<div class="row">
+								  		<div class="col-md-12 col-lg-4">
+								  			<h1 class="color_lightgray font-weight-bold">02.</h1>
+								  			<h4 class="color_primary font-weight-bold">S'est formé dans “l'IH/M”</h4>
+								  			<span class="color_secondery">2016-2018</span>
+								  		</div>
+								  		<div class="col-md-12 col-lg-4">
+								  			<img src="images/education/05.jpg" alt="image">
+								  		</div>
+								  		<div class="col-md-12 col-lg-4">
+								  			<p>Suite à la réussite de mon mooc j’ai pu acquérir les bases de l'interaction Homme/Machine.</p>
+								  			
+								  		</div>
+								  	</div>
+							  	</div>
+							  	<div class="company pb_60">
+							  		<div class="row">
+							  			<div class="col-md-12 col-lg-4">
+								  			<p>Durant mon engagement dans l’armée française j’ai pu effectuer la maintenance et utilisation des appareil et engin de mon régiment . </p>
+								  			
+								  		</div>
+								  		<div class="col-md-12 col-lg-4">
+								  			<h1 class="color_lightgray font-weight-bold">03.</h1>
+								  			<h4 class="color_primary font-weight-bold">S'est formé en“TAI ARMEE FRANCAISE”</h4>
+								  			<span class="color_secondery">2010-2015</span>
+								  		</div>
+								  		<div class="col-md-12 col-lg-4">
+								  			<img src="images/education/06.jpg" alt="image">
+								  		</div>
+								  	</div>
+							  	</div>
+							  </div>
+							</div>
+		    			</div>
+	    			</div>
+	    		</div>
+	    		<div class="row bg_primary">
+	    			<div class="col-md-12 col-lg-12">
+	    				<div class="video my_60">
+							<div class="row">
+								<div class="col-md-12 col-lg-7">
+									<div class="video_content ml_105">
+										<h2 class="color_default">Mes montages video</h2>
+										<p class="color_white">Quand les rare moments de détente s'offres à moi je passe du temps sur mes montage vidéo images ou audio. </p>
+									</div>
+								</div>
+								<div class="col-md-12 col-lg-5">
+									<div class="personal_video">
+										<img src="images/video.jpg" alt="image">
+										<a class="video-popup" href="video/CCI 2019 APSYCODE .mp4" title="video popup">
+										<i class="fa fa-play" aria-hidden="true"></i></a>
+										<div class="loader xy-center">
+											<div class="loader-inner ball-scale-multiple">
+												<div></div>
+												<div></div>
+												<div></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>	
+	    			</div>
+	    		</div>
+	    	</div>
+	    </div>
+	    <!--	End Education and Experience
+		===================================================-->
+		<!--	Start Services
+		===================================================-->
+	    <div id="services" class="section bg_white pp-scrollable">
+	    	<div class="container">
+	    		<div class="services my_60">
+	    			<div class="row">
+		    			<div class="col-md-12 col-lg-12">
+		    				<!--	Start Title
+		    				================================-->
+		    				<div class="main_title pb_60">
+								<h2 class="title color_primary">Services Possible </h2>
+								<p class="mt_15">A se jours nombreux sans les possibilités, nombreux sans les défis réalisables et je mes donc mais compétence suivante à votre entière disposition pour un travail propre rapide et efficace.  </p>											
+							</div>
+							<!--	End Title
+		    				================================-->
+		    			</div>
+		    		</div>
+		    		<div class="services_item owl-carousel">
+						<div class="service_one text-center p_30">
+							<div class="srvicon bg_default color_white mx-auto mb_20"><span class="flaticon-website-design-symbol"></span></div>
+							<h3 class="font-weight-bold color_primary">Web Design</h3>
+							<p>Grace à la formation que j'ai pu avoir à la CCI nous obtenant les basses des principes et réglé fondamentale du web design et nous poussons donc les retranchements de l'impossible dans le possible grâce à nos partenaire et collaborateur. </p>
+						</div>
+						<div class="service_one text-center p_30">
+							<div class="srvicon bg_default color_white mx-auto mb_20"><span class="flaticon-programming"></span></div>
+							<h3 class="font-weight-bold color_primary">Web Development</h3>
+							<p>Que ce soit du Front End ou Back End je m'occuperais de vous pour qu'à la fin ce ne soit que votre pensée qui y soie représenter avec comme seul barrière votre imagination. </p>
+						</div>
+						<div class="service_one text-center p_30">
+							<div class="srvicon bg_default color_white mx-auto mb_20"><span class="flaticon-wordpress-logo"></span></div>
+							<h3 class="font-weight-bold color_primary">Wordpress</h3>
+							<p>Votre site sera dans les premiers du classement en SEO afin de bénéficier de ces nombreux avantage t'elle qu'un meilleur référencement ou une amélioration considérable du trafic sur votre site. </p>
+						</div>
+						<div class="service_one text-center p_30">
+							<div class="srvicon bg_default color_white mx-auto mb_20"><span class="flaticon-shopping-cart"></span></div>
+							<h3 class="font-weight-bold color_primary">Pannier Opti</h3>
+							<p>Vous aurais la possibilité d'avoir accès à l'optimisation de vos vente grâce aux savoir-faire de mes confrère et moi. </p>
+						</div>
+						<div class="service_one text-center p_30">
+							<div class="srvicon bg_default color_white mx-auto mb_20"><span class="flaticon-editor"></span></div>
+							<h3 class="font-weight-bold color_primary">Graghic Design</h3>
+							<p>Grace à la veille informatique nous restons connecter et informer sur les dernières actualités du marcher du design afin de permettre une prestation de qualité </p>
+						</div>
+		    		</div>
+	    		</div>
+	    	</div>
+	    </div>
+	    <!--	End Services
+		===================================================-->
+		<!--	Start Portfolio
+		===================================================-->
+	    
+		<!--	End Portfolio
+		===================================================-->
+		<!--	Start Pricing
+		===================================================-->
+	    
+	    <!--	End Pricing
+		===================================================-->
+		<!--	Start Team
+		===================================================-->
+	    <div id="team" class="section bg_white pp-scrollable">
+	    	<div class="container">
+	    		<div class="team my_60">
+	    			<div class="row">
+		    			<div class="col-md-12 col-lg-12">
+		    				<!--	Start Title
+		    				================================-->
+		    				<div class="main_title pb_60">
+								<h2 class="title color_primary">Team</h2>
+								<p class="mt_15">Notre équipe a était choisi pour faire de vos objectif une idée professionnelle et abordable son aucune frontière pour votre imagination.</p>											
+							</div>
+							<!--	End Title
+		    				================================-->
+		    			</div>
+		    		</div>
+		    		<div class="row">
+		    			<div class="col-md-12 col-lg-12">
+		    				<div class="team_member owl-carousel">
+		    					<div class="member">
+	    							<img src="images/team/01.jpg" alt="image">
+	    							<div class="data">
+	    								<h4 class="bg_default color_primary font-weight-bold m-0">Angsard Anais</h4>
+	    								<strong class="bg_primary color_white">Designer Pro</strong>
+	    							</div>
+	    							<div class="hover_overlay">
+	    								<div class="border">
+	    									<h4 class="color_default font-weight-bold text-center text-uppercase">Angsard Anais</h4>
+		    								<strong class="color_white text-center d-block mb_15">Designer pro</strong>
+		    								<p class="color_white">Professionnelle dans son domaine Madame Angsard possède les meilleures qualités possibles pour vos futur dissigne . </p>
+		    								<div class="socal_media">
+												<ul>
+													<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+													<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+													<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+													<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+													<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+												</ul>
+											</div>
+	    								</div>
+	    							</div>
+	    						</div>
+			    				<div class="member">
+	    							<img src="images/team/02.jpg" alt="image">
+	    							<div class="data">
+	    								<h4 class="bg_default color_primary font-weight-bold m-0">Rolland Steve</h4>
+	    								<strong class="bg_primary color_white">Optimisation  Syst</strong>
+	    							</div>
+	    							<div class="hover_overlay">
+	    								<div class="border">
+	    									<h4 class="color_default font-weight-bold text-center text-uppercase">Rolland Steve</h4>
+		    								<strong class="color_white text-center d-block mb_15">Optimisation Syst</strong>
+		    								<p class="color_white">Mr Rolland charger d'optimiser aux mieux les projets lancer a étais former par les meilleurs qui puise être.</p>
+		    								<div class="socal_media">
+												<ul>
+													<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+													<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+													<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+													<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+													<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+												</ul>
+											</div>
+	    								</div>
+	    							</div>
+	    						</div>
+			    				<div class="member">
+	    							<img src="images/team/03.jpg" alt="image">
+	    							<div class="data">
+	    								<h4 class="bg_default color_primary font-weight-bold m-0">Dujardin Fabrice</h4>
+	    								<strong class="bg_primary color_white">Developer</strong>
+	    							</div>
+	    							<div class="hover_overlay">
+	    								<div class="border">
+	    									<h4 class="color_default font-weight-bold text-center text-uppercase">Dujardin Fabrice</h4>
+		    								<strong class="color_white text-center d-block mb_15">Developer</strong>
+		    								<p class="color_white">Mr Dujardin charger de mettre en place la structure du site et de permettre ainsi le déploiement de la plateforme dans les délai avec comme objectif la perfection . </p>
+		    								<div class="socal_media">
+												<ul>
+													<li><a href="https://www.facebook.com/profile.php?id=100010364235108"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+													<li><a href="https://twitter.com/DUJARDINFabric3"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+													<li><a href="https://www.linkedin.com/in/fabrice-dujardin-246066175/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+												</ul>
+											</div>
+	    								</div>
+	    							</div>
+	    						</div>
+	    						<div class="member">
+	    							<img src="images/team/04.jpg" alt="image">
+	    							<div class="data">
+	    								<h4 class="bg_default color_primary font-weight-bold m-0">Rolland Anggun</h4>
+	    								<strong class="bg_primary color_white">Charger <br> en communication</strong>
+	    							</div>
+	    							<div class="hover_overlay">
+	    								<div class="border">
+	    									<h4 class="color_default font-weight-bold text-center text-uppercase">Rolland Anggun</h4>
+		    								<strong class="color_white text-center d-block mb_15">Charger <br>en communication</strong>
+		    								<p class="color_white">Madame Rolland et en charge de la gestion et communication avec l’extérieur afin d’optimiser le temps de travail de l’équipes.  </p>
+		    								<div class="socal_media">
+												<ul>
+													<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+													<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+													<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+													<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+													<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+												</ul>
+											</div>
+	    								</div>
+	    							</div>
+	    						</div>
+		    				</div> 
+		    			</div>
+		    		</div>
+	    		</div>
+	    	</div>
+	    </div>
+	    <!--	End Team
+		===================================================-->
+		<!--	Start Testimonial
+		===================================================-->
+	    <div id="testimonial" class="section bg_white pp-scrollable">
+	    	<div class="container">
+	    		<div class="testimonial my_60">
+	    			<div class="row">
+		    			<div class="col-md-12 col-lg-12">
+		    				<!--	Start Title
+		    				================================-->
+		    				<div class="main_title pb_60">
+								<h2 class="title color_primary">Commentaire</h2>
+								<p class="mt_15">L'avis de nos clients ...</p>											
+							</div>
+							<!--	End Title
+		    				================================-->
+		    			</div>
+		    			<div class="col-md-12 col-lg-12">
+		    				<div class="testimonial_item owl-carousel wow animated slideInUp">
+		    					<div class="member_feedback p_30">
+									<div class="client_img"><img src="images/testimonial/01.jpg" alt="image"></div>
+									<div class="star d-inline-block mt_30 color_default">
+										<ul>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+										</ul>
+									</div>
+									<h5 class="color_primary mb_15">Alicia Garcia</h5>
+									<p>Très bonne équipe à prendre au sérieux ! J'ai pu avoir une prestation digne des plus grands. </p>
+								</div>
+								<div class="member_feedback p_30">
+									<div class="client_img"><img src="images/testimonial/02.jpg" alt="image"></div>
+									<div class="star d-inline-block mt_30 color_default">
+										<ul>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+										</ul>
+									</div>
+									<h5 class="color_primary mb_15">Dephine Desez</h5>
+									<p>Une équipe qui a su répondre à mes besoins. Je vous les conseils !</p>
+								</div>
+								<div class="member_feedback p_30">
+									<div class="client_img"><img src="images/testimonial/03.jpg" alt="image"></div>
+									<div class="star d-inline-block mt_30 color_default">
+										<ul>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+										</ul>
+									</div>
+									<h5 class="color_primary mb_15">Pablo Tu</h5>
+									<p>De vieux amis qui ne cessera jamais de m'étonner sur la qualité de leurs travaux. </p>
+								</div>
+								<div class="member_feedback p_30">
+									<div class="client_img"><img src="images/testimonial/04.jpg" alt="image"></div>
+									<div class="star d-inline-block mt_30 color_default">
+										<ul>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+										</ul>
+									</div>
+									<h5 class="color_primary mb_15">Anna mina</h5>
+									<p>J'ai été surprise sur la rapidité que j'ai pu avoir ! je reviendrais sans aucun doute. </p>
+								</div>
+		    				</div>
+		    			</div>
+		    		</div>
+		    	</div>
+		    </div>
+		</div>
+		<!--	End Testimonial
+		===================================================-->
+		<!--	Start Contact
+		===================================================-->
+	    <div id="contact" class="section bg_white pp-scrollable">
+	    	<div class="container">
+	    		<div class="contact pt_60">
+	    			<div class="row">
+		    			<div class="col-md-12 col-lg-12">
+		    				<!--	Start Title
+		    				================================-->
+		    				<div class="main_title pb_60">
+								<h2 class="title color_primary">Contact</h2>
+								<p class="mt_15">Pour toute questions, demande de projet contacter moi grâce à ce formulaire. </p>											
+							</div>
+							<!--	End Title
+		    				================================-->
+		    			</div>
+		    		</div>
+		    		<div class="row">
+		    			<div class="col-md-5 col-lg-4">
+		    				<div class="contact_info">
+		    					<ul>
+		    						<li>
+		    							<div class="contact_icon float-left"><i class="fa fa-phone" aria-hidden="true"></i></div>
+		    							<div class="contact_text">
+		    								<h6 class="font-weight-bold color_primary">TELEPHONE</h6>
+		    								<span class="color_secondery">00687 97.58.16</span>
+		    							</div>
+		    						</li>
+		    						<li>
+		    							<div class="contact_icon float-left"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+		    							<div class="contact_text">
+		    								<h6 class="font-weight-bold color_primary">EMAIL</h6>
+		    								<span class="color_secondery">fabricedujardin873@gmail.com</span>
+		    							</div>
+		    						</li>
+		    						<li>
+		    							<div class="contact_icon float-left"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+		    							<div class="contact_text">
+		    								<h6 class="font-weight-bold color_primary">ADDRESS</h6>
+		    								<span class="color_secondery">150 rue du HAMEAU lotissement deray St-michel NOUVELLE-CALEDONIE</span>
+		    							</div>
+		    						</li>
+		    					</ul>
+		    				</div>
+		    			</div>
+		    			<div class="col-md-7 col-lg-8">
+		    				<form class="form contact_message pb_60" id="contact-form" action="f.dujardin@cci-formation.nc" method="post">
+								<div class="row">
+									<div class="col-md-6 col-lg-6">
+										<div class="form-group">
+											<input class="form-control" type="text" name="name" placeholder="Your Name" />
+										</div>
+									</div>
+									<div class="col-md-6 col-lg-6">
+										<div class="form-group">
+											<input class="form-control" type="email" name="email" placeholder="Email Address" />
+										</div>
+									</div>
+									<div class="col-md-12 col-lg-12">
+										<div class="form-group">
+										  <input class="form-control" type="text" name="subject" placeholder="Subject"/>
+										</div>
+									</div>
+									<div class="col-md-12 col-lg-12">
+										<div class="form-group">
+											<textarea class="form-control" name="message" rows="7" placeholder="Message"></textarea>
+										</div>							
+									</div>
+									<div class="col-md-12 col-lg-12">
+										<div class="form-group">
+											<input class="btn btn-default" id="send" value="Send Massage" type="submit"/>
+										</div>
+									</div>
+									<div class="col-md-12 col-lg-12">
+										<div class="error-handel">
+											<div id="success">Votre email à étà envoyé avec succès, merci.</div>
+											<div id="error"> Une erreur s'est produite lors de l'envoi du courrier électronique. Veuillez réessayer.</div>
+										</div>
+									</div>
+								</div>
+							</form>
+		    			</div>
+		    		</div>
+	    		</div>
+	    	</div>
+	    	<div class="footer pt_60 background6">
+	    		<div class="container">
+	    			<div class="footer_bottom pb_60">
+	    				<div class="row">
+		    				<div class="col-md-12 col-lg-12">
+		    					<div class="row">
+		    						<div class="col-md-6 col-lg-6">
+		    							<div class="footer-widget">
+		    								<div class="footer_title pb_30">
+												<h3 class="widget_title color_white">DERNIERS TWEETS</h3>					
+											</div>
+											<div class="twite color_secondery pb_30">
+												<p class="color_white">Comment repenser et améliorer l'ergonomie de son site web ?<a class="color_default" href="https://twitter.com/Dev_Site_Web/status/410317351213494272"> httm://envato/FabriceNC</a></p>
+												<i class="fa fa-clock-o" aria-hidden="true"></i><span>Poster le 09 DEC 2018</span>
+											</div>
+											<div class="twite color_secondery pb_30">
+												<p class="color_white">Vous cherchez un #Emploi ?
+													Avez-vous déjà pensé à vous faire coopter ?
+													  #Cooptation<a class="color_default" href="https://twitter.com/CooptAction/status/912274889620549634"> httm://envato/FabriceNouméa</a></p>
+												<i class="fa fa-clock-o" aria-hidden="true"></i><span>Posted On 12 Feb 2017</span>
+											</div>
+		    							</div>
+		    						</div>
+		    						<div class="col-md-6 col-lg-6">
+		    							<div class="footer-widget">
+		    								<div class="footer_title pb_30">
+												<h3 class="widget_title color_white">Newsletter Subscribe</h3>		
+											</div>
+											<div class="newsletter">
+												<p class="color_white">Abonner vous à notre newsletter et suivez nous . </p>
+												<div class="subscribe mt_30">
+													<div class="input-group">
+												        <input type="email" class="form-control" placeholder="Entrer votre email">
+												        <button class="btn btn-default" type="submit">Envoyer</button>
+											        </div>
+												</div>
+											</div>
+		    							</div>
+		    						</div>
+		    					</div>
+		    				</div>
+		    			</div>
+	    			</div>
+	    		</div>
+	    		<div class="copyright2 p_20 color_lightgray bg_primary text-center"><p>DUJARDIN Fabrice St-MICHEL  @ 2019. All Right Reserved.</p></div>
+	    	</div>
+	    </div>
+		<!--	End Contact
+		===================================================-->
+	</div>
+	<!--	Js Links
+	===================================================-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/jquery.pagepiling.min.js"></script>
+	<script src="js/custom.js"></script>
+	<script>
+		var deleteLog = false;
+		//	Pagepiling js
+		//=====================================================
+		$(document).ready(function() {
+	    	$('#pagepiling').pagepiling({
+		    	menu: '#menu',
+		    	anchors: ['page1', 'page2', 'page3', 'page4', 'page5','page6', 'page7', 'page8','page9'],
+		    	loopTop: true,
+		    	loopBottom: true
+		  	});
+	    });
+		//	Sidebar Nav Menu js
+		//=====================================================
+		function openNav() {
+		    document.getElementById("mysidenav").style.width = "150px";
+		}
+		function closeNav() {
+		    document.getElementById("mysidenav").style.width = "0";
+		}
     </script>
-
-                
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-1001657488"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'AW-1001657488');
-    </script>
-        <script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5933301"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","../bat.bing.com/bat.js","uetq");</script>
-      
-  <script type="text/javascript" src="../ads.exoclick.com/tag_gen.js" data-goal="653ac363254803c29846fd06013fd50e"></script>
-  
-          </footer>
-    </body>
+</body>
 
 
 </html>
-
-<script type="text/javascript">
-  var origTitle, animatedTitle, timer
-
-  function animateTitle() {
-    var currentState = false;
-    origTitle = document.title;
-    animatedTitle = "(2) Nouveaux messages";
-    timer = setInterval(startAnimation, 1000);
-
-    function startAnimation() {
-      document.title = currentState ? origTitle : animatedTitle;
-      currentState = !currentState;
-    }
-  }
-
-  animateTitle()
-
-</script>
