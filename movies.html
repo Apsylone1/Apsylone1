@@ -44,21 +44,7 @@
 		</style>
 	</head>
 	<body>
-			<script type="text/babel">
-				function tick() {
-				  const element = (//cette élément décrit ce que vous voulez voir à l'écran
-								<div>
-									
-									<h3>{new Date().toLocaleTimeString()}</h3> 
-								</div>
-				  );
-				  ReactDOM.render(element, document.getElementById('root'));
-				}
-				/* toLocaleTimeString =Renvoie la partie heure d'un objet Date sous forme de chaîne*/
-				
-				setInterval(tick, 1000);//par seconde
-				
-				 </script>
+			
 		
 	    <div id="preloader"><div class="premierload">Merci de patienter  </div><div class="deuxiémeload"> Afin de charger au mieux le site le loader de la page optimise la session.  Je vous remercie de patienter afin de pouvoir avoir accès à tout les films disponibles sur le site en instantanées. Si un problème d’affichage persiste après le chargement et passe à travers la maille du filet je vous propose d’actualiser la page quand celle–ci s’affiche. 
 
@@ -1012,6 +998,21 @@
 		<script src="assets/js/isotope.pkgd.min.js"></script>
 		<!-- main JS -->
 		<script src="assets/js/main.js"></script>
+		<script type="text/babel">
+			function tick() {
+			  const element = (//cette élément décrit ce que vous voulez voir à l'écran
+							<div>
+								
+								<h3>{new Date().toLocaleTimeString()}</h3> 
+							</div>
+			  );
+			  ReactDOM.render(element, document.getElementById('root'));
+			}
+			/* toLocaleTimeString =Renvoie la partie heure d'un objet Date sous forme de chaîne*/
+			
+			setInterval(tick, 1000);//par seconde
+			
+			 </script>
 		
 	</body>
 
