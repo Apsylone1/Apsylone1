@@ -27,7 +27,21 @@
 		<script src="https://unpkg.com/react@15/dist/react.js"></script>
     	<script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
 		<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
-	
+		<style type="text/css">
+		.premierload{	color:black;
+			position: absolute; /* postulat de départ */
+			top: 65%; left: 50%; /* à 50%/50% du parent référent */
+			transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+		  }
+
+.deuxiémeload{  color:black;
+			text-align:center;
+			position: absolute; /* postulat de départ */
+			top: 25%; left: 50%; /* à 50%/50% du parent référent */
+			transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+			
+		  }
+		</style>
 	</head>
 	<body>
 			<script type="text/babel">
@@ -46,7 +60,9 @@
 				
 				 </script>
 		
-	    <div id="preloader">Merci de patienter</div>
+	    <div id="preloader"><div class="premierload">Merci de patienter  </div><div class="deuxiémeload"> Afin de charger au mieux le site le loader de la page optimise la session.  Je vous remercie de patienter afin de pouvoir avoir accès à tout les films disponibles sur le site en instantanées. Si un problème d’affichage persiste après le chargement et passe à travers la maille du filet je vous propose d’actualiser la page quand celle–ci s’affiche. 
+
+				ApStream NC et heureux de vous présenter sa BETA. </div> </div>
 		<!-- header section start -->
 		<header class="header">
 			<div class="container">

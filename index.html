@@ -23,11 +23,32 @@
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css" media="all" />
 		<!-- Responsive CSS -->
 		<link rel="stylesheet" type="text/css" href="assets/css/responsive.css" media="all" />
-		
+		<style type="text/css">
+		.premierload{	color:black;
+						position: absolute; /* postulat de départ */
+						top: 65%; left: 50%; /* à 50%/50% du parent référent */
+						transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+					  }
+			
+		.deuxiémeload{  color:black;
+						text-align:center;
+						position: absolute; /* postulat de départ */
+						top: 25%; left: 50%; /* à 50%/50% du parent référent */
+						transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+						
+					  }
+					</style>
 	</head>
 	<body>
 		
-	    <div id="preloader">Merci de patienter</div>
+	    <div id="preloader"><div class="premierload">Merci de patienter  </div><div class="deuxiémeload">Pour des raisons de confort. Le site a été créés dans le but d’interagir aux maximums avec l’utilisateur afin d’avoir du contenue qui se basse sur les réactions et les gouts de nos utilisateurs. 
+
+		Les films et séries que vous pourrais lire en lecture automatique sont disponible gratuitement et sans aucunes inscriptions.  
+		
+		Afin de pouvoir participer aux votes de vos film préférer nous vous invitons à vous inscrire sans aucun frais supplémentaire. <br>Si un problème d’affichage persiste après le chargement et passe à travers la maille du filet je vous propose d’actualiser la page quand celle–ci s’affiche.
+
+		
+		ApStream NC et heureux de vous présenter sa BETA. </div> </div>
 		
 		<header class="header">
 			<div class="container">
