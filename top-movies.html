@@ -32,8 +32,23 @@
 		
 	</head>
 	<body>
-		<!-- Page loader -->
-	    <div id="preloader"></div>
+			<script type="text/babel">
+				function tick() {
+				  const element = (//cette élément décrit ce que vous voulez voir à l'écran
+								<div>
+									
+									<h3>{new Date().toLocaleTimeString()}</h3> 
+								</div>
+				  );
+				  ReactDOM.render(element, document.getElementById('root'));
+				}
+				/* toLocaleTimeString =Renvoie la partie heure d'un objet Date sous forme de chaîne*/
+				
+				setInterval(tick, 1000);//par seconde
+				
+				 </script>
+		
+	    <div id="preloader">Merci de patienter</div>
 		<!-- header section start -->
 		<header class="header">
 			<div class="container">
@@ -1052,21 +1067,7 @@
 		<script src="assets/js/isotope.pkgd.min.js"></script>
 		<!-- main JS -->
 		<script src="assets/js/main.js"></script>
-		<script type="text/babel">
-			function tick() {
-			  const element = (//cette élément décrit ce que vous voulez voir à l'écran
-							<div>
-								
-								<h3>{new Date().toLocaleTimeString()}</h3> 
-							</div>
-			  );
-			  ReactDOM.render(element, document.getElementById('root'));
-			}
-			/* toLocaleTimeString =Renvoie la partie heure d'un objet Date sous forme de chaîne*/
-			
-			setInterval(tick, 1000);//par seconde
-			
-			 </script>
+		
 	</body>
 
 </html>
