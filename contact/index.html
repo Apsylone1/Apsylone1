@@ -254,8 +254,8 @@
                                                             
                                                             
                                                                                                         <div class="moto-widget-contact_form-group">
-                            <label for="field_message" class="moto-widget-contact_form-label">Message</label>
-                            <textarea class="moto-widget-contact_form-field moto-widget-contact_form-textarea" rows="3" placeholder="Message *"  ng-blur="validate('message')" required  ng-model-options="{ updateOn: 'blur' }" name="message" id="field_message" ng-model="message.message"></textarea>
+                            <label for="field_message" class="moto-widget-contact_form-label">Message </label>
+                            <textarea class="moto-widget-contact_form-field moto-widget-contact_form-textarea" rows="3" placeholder="Pour envoyer vos (photos/Message) cliqué directement sur envoyer une page email s'ouvrira devant vous.*  Merci  *"  ng-blur="validate('message')" required  ng-model-options="{ updateOn: 'blur' }" name="message" id="field_message" ng-model="message.message"></textarea>
                                                             <span class="moto-widget-contact_form-field-error ng-cloak" ng-cloak ng-show="contactForm.message.$invalid && !contactForm.message.$pristine" >Champ requis</span>
                                                     </div>
                                     
@@ -272,7 +272,7 @@ Désolé, votre message n'a pas été envoyé
                         <div class="moto-widget-contact_form-buttons">
 
                             <div class="moto-widget moto-widget-button moto-preset-2 moto-align-left" data-preset="2" data-align="left">
-                    <a ng-click="submit();" class="moto-widget-button-link moto-size-medium" data-size="medium"><span class="fa moto-widget-theme-icon"></span><span class="moto-widget-button-label">SEND MESSAGE</span></a>
+                    <a ng-click="submit();" class="moto-widget-button-link moto-size-medium" data-size="medium" href="mailto:Calédoweed@gmail.com"><span class="fa moto-widget-theme-icon"></span><span class="moto-widget-button-label">SEND MESSAGE</span></a>
                 </div>
                 <button type="submit" class="hidden"></button>
             
