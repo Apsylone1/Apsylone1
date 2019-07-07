@@ -1,791 +1,1147 @@
+
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en" data-ng-app="website">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
-	<!--===== Meta Tag =====-->
-	<meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta name="description" content="Fabrice - Personal Portfolio HTML Template">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="business, agency, blog, cv, creative, html, one page, personal, portfolio, resume, responsive, bootstrap, photography, designer, developer">
-	<meta name="author" content="root">
+<meta charset="utf-8">
+<title>CalédoWeed , Référencement Nouméa</title>
+<link rel="SHORTCUT ICON" href="mt-demo/68100/68197/mt-content/uploads/2018/07/favicon80b0.ico?_build=1562166958" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="index.html" />
+<meta property="og:url" content="index.html"/>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="mt-includes/css/assets.minf6d5.css"/>
+<style>
+@import url(http://fonts.googleapis.com/css?family=Lato:300,300italic,regular,italic,700,700italic|Montserrat:300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic|Muli:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic|Poppins:regular,100,100italic,200,200italic,300,300italic,italic,600,500italic,500,600italic,700,700italic&amp;subset=latin);
+</style>
+<link rel="stylesheet" href="mt-demo/68100/68197/mt-content/assets/styles9e12.css" id="moto-website-style"/>
+<style>
+.fontMari{
+    background-color: #F39C12;
+    border:solid 2px #006902  ;
+    padding:5px;
+    margin:auto;
+}  
+#fontTitre{
+background-color: green;
+margin-left:auto;
+padding:5px 5px 0px 5px;
+    }
+.changementDeCouleur{
+    font-size: 1.05em;
+    color:white;
+    background-color: green;
+    opacity:0.9;
+    border:solid 2px #003201  ;
+    border-radius: 5px;
+}
 
-	 <!--	Css Links
-    ==================================================-->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/jquery.pagepiling.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="fonts/flaticon.css">
-    <link rel="stylesheet" href="css/plugins.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/color.css" id="color-change">
-
-     <!-- Favicon 
-    ==================================================-->
-	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon.ico">
-
-      <!--	Title
-    ==================================================-->
-	<title>Fabrice - Personal Portfolio HTML Template</title>
-
+</style>           
+    
+    
+    
+    
+    
+    
+    
+    
+    
 </head>
-<body id="top" class="page-load">
-	<!--	Preloader
-	==================================================-->
-	<div class="preloader">
-		<div class="lds-css ng-scope">
-			<div class="lds-spinner" style="100%;height:100%">
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-			</div>
-		</div>
-	</div>
-	<!-- Color Settings Start
-	==================================================-->
-	<div class="color-panel">
-		<div class="on-panel color_white bg_primary">
-			<div class="text-center icon-spinner">
-			  <i class="fa fa-cog fa-spin fa-3x fa-fw"></i>
-			</div>
-		</div>
-		<div class="panel-box">
-			<span class="panel-title">Theme Colors</span>		
-		</div>
-		<div class="template_style">
-			<span class="layout_title">Template Style</span>
-			<ul>
-				<li><a class="btn_link" href="index.html" target="blank">White Version</a></li>
-				<li><a class="btn_link" href="index-1.html" target="blank">Black Version</a></li>
-			</ul>
-		</div>
-	</div>
-	<!--  Color Settings End
-	==============================================-->
-	<!--	Start Sidebar
-	==================================================-->
-	<div id="mysidenav" class="sidenav">
-	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="flaticon-close-button"></i></a>
-	  <img class="nav-logo" src="images/logo/291.png" alt="image">
-	  	<ul id="menu">
-			<li data-menuanchor="page1" class="active"><a href="#page1">Home</a></li>
-			<li data-menuanchor="page2"><a href="#page2">A propos de moi.</a></li>
-			<li data-menuanchor="page3"><a href="#page3">Résumer</a></li>
-			<li data-menuanchor="page4"><a href="#page4">Services</a></li>
-			<li data-menuanchor="page5"><a href="#page5">Team</a></li>
-			<li data-menuanchor="page6"><a href="#page6">Testimonial</a></li>
-			<li data-menuanchor="page7"><a href="#page7">Contact</a></li>
-		</ul>
-	</div>
-	<div class="sidebar bg_primary">
-		<div class="logo text-center"><a href="#page1"><strong>DEV</strong></a></div>
-		<span style="cursor:pointer" onclick="openNav()">&#9776;</span>
-		<div class="socal_media mt_60">
-			<ul>
-				<li><a href="https://www.facebook.com/profile.php?id=100010364235108"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-				<li><a href="https://twitter.com/DUJARDINFabric3"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-				<li><a href="https://www.linkedin.com/in/fabrice-dujardin-246066175/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-			</ul>
-		</div>			
-	</div>
-	<div class="contact_massage bg_primary">
-		<a href="mailto:fabricedujardin873@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-	</div>
-	<!--	End Sidebar
-	=======================================================-->
-	<div id="pagepiling">
-	    <!--	Start Slider
-		===================================================-->
-		<div id="slider" class="section bg_white">
-			<div class="line-container">
-				<div class="row">
-					<div class="col-md-3 col-lg-3"><div class="liner"></div></div>
-					<div class="col-md-3 col-lg-3"><div class="liner"></div></div>
-					<div class="col-md-3 col-lg-3"><div class="liner"></div></div>
-					<div class="col-md-3 col-lg-3"><div class="liner"></div></div>
-				</div>
-			</div>
-			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-			  <ol class="carousel-indicators">
-			    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-			    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-			    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-			  </ol>
-			  <div class="carousel-inner overlay_three">
-			    <div class="carousel-item active">
-			      <div class="overlay_one pattan"><img  class="" src="images/slider/01.jpg" alt="slide image"></div>
-			      <div class="carousel-caption">
-				    <h1 class="mb_20">Solution géniale<br> pour <span class="color_default">vous </span></h1>
-				    <p class="mb_20">
-							Un service de qualité à l'écoute de vos besoins. </p>
-				    <a class="btn btn-default" href="#">C'est parti !</a>
-				  </div>
-			    </div>
-			    <div class="carousel-item">
-			      <div class="overlay_one pattan"><img src="images/slider/02.jpg" alt="slide image"></div>
-			      <div class="carousel-caption">
-				    <h1 class="mb_20">
-							Solution géniale<br> pour <span class="color_default">vous </span></h1>
-				    <p class="mb_20">De la motivation à en faire mordre la poussière vos concurrent. </p>
-				    <a class="btn btn-default" href="#">C'est parti !</a>
-				  </div>
-			    </div>
-			    <div class="carousel-item">
-			      <div class="overlay_one pattan"><img src="images/slider/03.jpg" alt="slide image"></div>
-			      <div class="carousel-caption">
-				    <h1 class="mb_20">Solution géniale<br> pour <span class="color_default">vous </span></h1>
-				    <p class="mb_20">Une formation suivie par les meilleurs.</p>
-				    <a class="btn btn-default" href="https://www.cci.nc/">Info</a>
-				  </div>
-			    </div>
-			  </div>
-			</div>
-		</div>
-	    <!--	End Slider
-		===================================================-->
-		<!--	Start About
-		===================================================-->
-	    <div id="about" class="section bg_white pp-scrollable">
-	    	<div class="container-fluid">
-	    		<div class="row">
-	    			<div class="about2">
-	    				<div class="col-md-12 col-lg-12">
-	    					<div class="row">
-	    						<div class="col-md-4 col-lg-4">
-	    							<div class="overlay_one"><img src="images/about/01.jpg" alt="image"></div>
-	    						</div>
-	    						<div class="col-md-8 col-lg-8">
-	    							<div class="about_myself pb_60">
-	    								<!--	Start Title
-	    								================================-->
-	    								<div class="main_title my_60">
-											<h2 class="title color_primary">À propos de moi</h2>
-											<p class="mt_15">Je suis né en  Nouvelle-Calédonie . J'ai vécu mon enfance à Saint-Michel au Mont-Dore .</p>											
-										</div>
-										<!--	End Title
-	    								================================-->
-										<div class="row">
-		    								<div class="col-md-6 col-lg-6">
-												<div class="myself color_secondery">
-													<p>Depuit petit j'ai été nourri de l'informatique , l'adoration de se monde me fait rêver chaque matin quand je me lève et chaque soir quand je me couche . Pouvoir avoir la chance de contribuer à l'avancer dans ce domaine, me donne chaque jours de plus en plus de force .</p>
-													
-													<p class="pt_30">je m'appelle Fabrice Dujardin et bientôt je toucherai les étoiles .</p>
-												</div>
-				    						</div>
-				    						<div class="col-md-6 col-lg-6">
-				    							<div class="personal_info">
-				    								<ul>
-				    									<li><span class="color_secondery">Nom :</span> Fabrice Dujardin</li>
-														<li><span class="color_secondery">Email :</span> f.dujardin@cci-formation.nc</li>
-														<li><span class="color_secondery">Téléphone :</span> 97.58.16</li>
-														<li><span class="color_secondery">Date d'anniversaire :</span> 23 Mars 1992</li>
-														<li><span class="color_secondery"> Group Sanguin :</span> A+</li>
-														<li><span class="color_secondery">Address :</span> 150 saint-michel mont-dore Nouvelle-calédonie</li>		
-				    								</ul>
-				    							</div>
-				    						</div>
-		    							</div>
-	    							</div>
-	    						</div>
-	    					</div>	
-	    				</div>
-	    			</div>
-	    		</div>
-	    	</div>
-	    </div>
-	    <!--	End About
-		===================================================-->
-		<!--	Start Education and Experience
-		===================================================-->
-	    <div id="education" class="section bg_white pp-scrollable">
-	    	<div class="container-fluid">
-	    		<div class="row">
-	    			<div class="col-md-12 col-lg-12">
-	    				<div class="education_experience ml_105">
-	    					<!--	Start Title
-	    					================================-->
-		    				<div class="main_title my_60">
-								<h2 class="title color_primary">Compétence & Experience</h2>
-								<p class="mt_15">L’art de la renaissance  </p>											
-							</div>
-							<!--	End Title
-	    					================================-->
-		    				<ul class="nav nav-pills pb_60" id="pills-tab" role="tablist">
-							  <li class="nav-item">
-							    <a class="btn btn-default active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Experience</a>
-							  </li>
-							  <li class="nav-item mx_10">
-							    <a class="btn btn-default" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Compétence</a>
-							  </li>
-							</ul>
-							<div class="tab-content" id="pills-tabContent">
-							  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-						  		<div class="company pb_60">
-								  	<div class="row">
-								  		<div class="col-md-12 col-lg-4">
-								  			<h1 class="color_lightgray font-weight-bold">01.</h1>
-								  			<h4 class="color_primary font-weight-bold">Travailler dans l’entreprise “BB Transport”</h4>
-								  			<span class="color_secondery">2018</span>
-								  		</div>
-								  		<div class="col-md-12 col-lg-4">
-								  			<p>Transport de marchandise sur le territoire de NC </p>
-								  		</div>
-								  		<div class="col-md-12 col-lg-4">
-								  			<img src="images/education/01.jpg" alt="image">
-								  		</div>
-							  		</div>
-							  	</div>
-							  	<div class="company pb_60">
-							  		<div class="row">
-								  		<div class="col-md-12 col-lg-4">
-								  			<p>Déménagement sur secteur de nouméa </p>
-								  		</div>
-								  		<div class="col-md-12 col-lg-4">
-								  			<img src="images/education/02.jpg" alt="image">
-								  		</div>
-								  		<div class="col-md-12 col-lg-4">
-								  			<h1 class="color_lightgray font-weight-bold">02.</h1>
-								  			<h4 class="color_primary font-weight-bold">Travailler dans l’entreprise “City-expresse”</h4>
-								  			<span class="color_secondery">2018</span>
-								  		</div>
-								  	</div>
-							  	</div>
-							  	<div class="company pb_60">
-							  		<div class="row">
-							  			<div class="col-md-12 col-lg-4">
-								  			<img src="images/education/03.jpg" alt="image">
-								  		</div>
-								  		<div class="col-md-12 col-lg-4">
-								  			<h1 class="color_lightgray font-weight-bold">03.</h1>
-								  			<h4 class="color_primary font-weight-bold">Travailler dans l’entreprise “ARMEE FRANCAISE”</h4>
-								  			<span class="color_secondery">2010</span>
-								  		</div>
-								  		<div class="col-md-12 col-lg-4">
-								  			<p>Poseur de pneumatique,recreusage et rechapage(VL,PL,SPL et avant blindé)</p>
-												<p>Chauffeur militaire (permis A2,A,B,C,E)</p>
-												<p>Entretien mécanique des engins militaires</p>
-								  		</div>
-								  	</div>
-							  	</div>
-							  </div>
-							  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-							  	<div class="company pb_60">
-							  		<div class="row">
-								  		<div class="col-md-12 col-lg-4">
-								  			<img src="images/education/04.jpg" alt="image">
-								  		</div>
-								  		<div class="col-md-12 col-lg-4">
-								  			<p>Seul ou accompagner je me forme pour devenir bon dans mon domaine ! Devenir Développeur Web ces plus qu’un métier c'est une passion.</p>
-								  			
-								  		</div>
-								  		<div class="col-md-12 col-lg-4">
-								  			<h1 class="color_lightgray font-weight-bold">01.</h1>
-								  			<h4 class="color_primary font-weight-bold">Se forme en “HTML/CSS/java script”</h4>
-								  			<span class="color_secondery">2019</span>
-								  		</div>
-								  	</div>
-							  	</div>
-							  	<div class="company pb_60">
-							  		<div class="row">
-								  		<div class="col-md-12 col-lg-4">
-								  			<h1 class="color_lightgray font-weight-bold">02.</h1>
-								  			<h4 class="color_primary font-weight-bold">S'est formé dans “l'IH/M”</h4>
-								  			<span class="color_secondery">2016-2018</span>
-								  		</div>
-								  		<div class="col-md-12 col-lg-4">
-								  			<img src="images/education/05.jpg" alt="image">
-								  		</div>
-								  		<div class="col-md-12 col-lg-4">
-								  			<p>Suite à la réussite de mon mooc j’ai pu acquérir les bases de l'interaction Homme/Machine.</p>
-								  			
-								  		</div>
-								  	</div>
-							  	</div>
-							  	<div class="company pb_60">
-							  		<div class="row">
-							  			<div class="col-md-12 col-lg-4">
-								  			<p>Durant mon engagement dans l’armée française j’ai pu effectuer la maintenance et utilisation des appareil et engin de mon régiment . </p>
-								  			
-								  		</div>
-								  		<div class="col-md-12 col-lg-4">
-								  			<h1 class="color_lightgray font-weight-bold">03.</h1>
-								  			<h4 class="color_primary font-weight-bold">S'est formé en“TAI ARMEE FRANCAISE”</h4>
-								  			<span class="color_secondery">2010-2015</span>
-								  		</div>
-								  		<div class="col-md-12 col-lg-4">
-								  			<img src="images/education/06.jpg" alt="image">
-								  		</div>
-								  	</div>
-							  	</div>
-							  </div>
-							</div>
-		    			</div>
-	    			</div>
-	    		</div>
-	    		<div class="row bg_primary">
-	    			<div class="col-md-12 col-lg-12">
-	    				<div class="video my_60">
-							<div class="row">
-								<div class="col-md-12 col-lg-7">
-									<div class="video_content ml_105">
-										<h2 class="color_default">Mes montages video</h2>
-										<p class="color_white">Quand les rare moments de détente s'offres à moi je passe du temps sur mes montage vidéo images ou audio. </p>
-									</div>
-								</div>
-								<div class="col-md-12 col-lg-5">
-									<div class="personal_video">
-										<img src="images/video.jpg" alt="image">
-										<a class="video-popup" href="video/CCI 2019 APSYCODE .mp4" title="video popup">
-										<i class="fa fa-play" aria-hidden="true"></i></a>
-										<div class="loader xy-center">
-											<div class="loader-inner ball-scale-multiple">
-												<div></div>
-												<div></div>
-												<div></div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>	
-	    			</div>
-	    		</div>
-	    	</div>
-	    </div>
-	    <!--	End Education and Experience
-		===================================================-->
-		<!--	Start Services
-		===================================================-->
-	    <div id="services" class="section bg_white pp-scrollable">
-	    	<div class="container">
-	    		<div class="services my_60">
-	    			<div class="row">
-		    			<div class="col-md-12 col-lg-12">
-		    				<!--	Start Title
-		    				================================-->
-		    				<div class="main_title pb_60">
-								<h2 class="title color_primary">Services Possible </h2>
-								<p class="mt_15">A se jours nombreux sans les possibilités, nombreux sans les défis réalisables et je mes donc mais compétence suivante à votre entière disposition pour un travail propre rapide et efficace.  </p>											
-							</div>
-							<!--	End Title
-		    				================================-->
-		    			</div>
-		    		</div>
-		    		<div class="services_item owl-carousel">
-						<div class="service_one text-center p_30">
-							<div class="srvicon bg_default color_white mx-auto mb_20"><span class="flaticon-website-design-symbol"></span></div>
-							<h3 class="font-weight-bold color_primary">Web Design</h3>
-							<p>Grace à la formation que j'ai pu avoir à la CCI nous obtenant les basses des principes et réglé fondamentale du web design et nous poussons donc les retranchements de l'impossible dans le possible grâce à nos partenaire et collaborateur. </p>
-						</div>
-						<div class="service_one text-center p_30">
-							<div class="srvicon bg_default color_white mx-auto mb_20"><span class="flaticon-programming"></span></div>
-							<h3 class="font-weight-bold color_primary">Web Development</h3>
-							<p>Que ce soit du Front End ou Back End je m'occuperais de vous pour qu'à la fin ce ne soit que votre pensée qui y soie représenter avec comme seul barrière votre imagination. </p>
-						</div>
-						<div class="service_one text-center p_30">
-							<div class="srvicon bg_default color_white mx-auto mb_20"><span class="flaticon-wordpress-logo"></span></div>
-							<h3 class="font-weight-bold color_primary">Wordpress</h3>
-							<p>Votre site sera dans les premiers du classement en SEO afin de bénéficier de ces nombreux avantage t'elle qu'un meilleur référencement ou une amélioration considérable du trafic sur votre site. </p>
-						</div>
-						<div class="service_one text-center p_30">
-							<div class="srvicon bg_default color_white mx-auto mb_20"><span class="flaticon-shopping-cart"></span></div>
-							<h3 class="font-weight-bold color_primary">Pannier Opti</h3>
-							<p>Vous aurais la possibilité d'avoir accès à l'optimisation de vos vente grâce aux savoir-faire de mes confrère et moi. </p>
-						</div>
-						<div class="service_one text-center p_30">
-							<div class="srvicon bg_default color_white mx-auto mb_20"><span class="flaticon-editor"></span></div>
-							<h3 class="font-weight-bold color_primary">Graghic Design</h3>
-							<p>Grace à la veille informatique nous restons connecter et informer sur les dernières actualités du marcher du design afin de permettre une prestation de qualité </p>
-						</div>
-		    		</div>
-	    		</div>
-	    	</div>
-	    </div>
-	    <!--	End Services
-		===================================================-->
-		<!--	Start Portfolio
-		===================================================-->
-	    
-		<!--	End Portfolio
-		===================================================-->
-		<!--	Start Pricing
-		===================================================-->
-	    
-	    <!--	End Pricing
-		===================================================-->
-		<!--	Start Team
-		===================================================-->
-	    <div id="team" class="section bg_white pp-scrollable">
-	    	<div class="container">
-	    		<div class="team my_60">
-	    			<div class="row">
-		    			<div class="col-md-12 col-lg-12">
-		    				<!--	Start Title
-		    				================================-->
-		    				<div class="main_title pb_60">
-								<h2 class="title color_primary">Team</h2>
-								<p class="mt_15">Notre équipe a était choisi pour faire de vos objectif une idée professionnelle et abordable son aucune frontière pour votre imagination.</p>											
-							</div>
-							<!--	End Title
-		    				================================-->
-		    			</div>
-		    		</div>
-		    		<div class="row">
-		    			<div class="col-md-12 col-lg-12">
-		    				<div class="team_member owl-carousel">
-		    					<div class="member">
-	    							<img src="images/team/01.jpg" alt="image">
-	    							<div class="data">
-	    								<h4 class="bg_default color_primary font-weight-bold m-0">Angsard Anais</h4>
-	    								<strong class="bg_primary color_white">Designer Pro</strong>
-	    							</div>
-	    							<div class="hover_overlay">
-	    								<div class="border">
-	    									<h4 class="color_default font-weight-bold text-center text-uppercase">Angsard Anais</h4>
-		    								<strong class="color_white text-center d-block mb_15">Designer pro</strong>
-		    								<p class="color_white">Professionnelle dans son domaine Madame Angsard possède les meilleures qualités possibles pour vos futur dissigne . </p>
-		    								<div class="socal_media">
-												<ul>
-													<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-													<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-													<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-													<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-													<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-												</ul>
-											</div>
-	    								</div>
-	    							</div>
-	    						</div>
-			    				<div class="member">
-	    							<img src="images/team/02.jpg" alt="image">
-	    							<div class="data">
-	    								<h4 class="bg_default color_primary font-weight-bold m-0">Rolland Steve</h4>
-	    								<strong class="bg_primary color_white">Optimisation  Syst</strong>
-	    							</div>
-	    							<div class="hover_overlay">
-	    								<div class="border">
-	    									<h4 class="color_default font-weight-bold text-center text-uppercase">Rolland Steve</h4>
-		    								<strong class="color_white text-center d-block mb_15">Optimisation Syst</strong>
-		    								<p class="color_white">Mr Rolland charger d'optimiser aux mieux les projets lancer a étais former par les meilleurs qui puise être.</p>
-		    								<div class="socal_media">
-												<ul>
-													<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-													<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-													<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-													<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-													<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-												</ul>
-											</div>
-	    								</div>
-	    							</div>
-	    						</div>
-			    				<div class="member">
-	    							<img src="images/team/03.jpg" alt="image">
-	    							<div class="data">
-	    								<h4 class="bg_default color_primary font-weight-bold m-0">Dujardin Fabrice</h4>
-	    								<strong class="bg_primary color_white">Developer</strong>
-	    							</div>
-	    							<div class="hover_overlay">
-	    								<div class="border">
-	    									<h4 class="color_default font-weight-bold text-center text-uppercase">Dujardin Fabrice</h4>
-		    								<strong class="color_white text-center d-block mb_15">Developer</strong>
-		    								<p class="color_white">Mr Dujardin charger de mettre en place la structure du site et de permettre ainsi le déploiement de la plateforme dans les délai avec comme objectif la perfection . </p>
-		    								<div class="socal_media">
-												<ul>
-													<li><a href="https://www.facebook.com/profile.php?id=100010364235108"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-													<li><a href="https://twitter.com/DUJARDINFabric3"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-													<li><a href="https://www.linkedin.com/in/fabrice-dujardin-246066175/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-												</ul>
-											</div>
-	    								</div>
-	    							</div>
-	    						</div>
-	    						<div class="member">
-	    							<img src="images/team/04.jpg" alt="image">
-	    							<div class="data">
-	    								<h4 class="bg_default color_primary font-weight-bold m-0">Rolland Anggun</h4>
-	    								<strong class="bg_primary color_white">Charger <br> en communication</strong>
-	    							</div>
-	    							<div class="hover_overlay">
-	    								<div class="border">
-	    									<h4 class="color_default font-weight-bold text-center text-uppercase">Rolland Anggun</h4>
-		    								<strong class="color_white text-center d-block mb_15">Charger <br>en communication</strong>
-		    								<p class="color_white">Madame Rolland et en charge de la gestion et communication avec l’extérieur afin d’optimiser le temps de travail de l’équipes.  </p>
-		    								<div class="socal_media">
-												<ul>
-													<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-													<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-													<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-													<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-													<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-												</ul>
-											</div>
-	    								</div>
-	    							</div>
-	    						</div>
-		    				</div> 
-		    			</div>
-		    		</div>
-	    		</div>
-	    	</div>
-	    </div>
-	    <!--	End Team
-		===================================================-->
-		<!--	Start Testimonial
-		===================================================-->
-	    <div id="testimonial" class="section bg_white pp-scrollable">
-	    	<div class="container">
-	    		<div class="testimonial my_60">
-	    			<div class="row">
-		    			<div class="col-md-12 col-lg-12">
-		    				<!--	Start Title
-		    				================================-->
-		    				<div class="main_title pb_60">
-								<h2 class="title color_primary">Commentaire</h2>
-								<p class="mt_15">L'avis de nos clients ...</p>											
-							</div>
-							<!--	End Title
-		    				================================-->
-		    			</div>
-		    			<div class="col-md-12 col-lg-12">
-		    				<div class="testimonial_item owl-carousel wow animated slideInUp">
-		    					<div class="member_feedback p_30">
-									<div class="client_img"><img src="images/testimonial/01.jpg" alt="image"></div>
-									<div class="star d-inline-block mt_30 color_default">
-										<ul>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-										</ul>
-									</div>
-									<h5 class="color_primary mb_15">Alicia Garcia</h5>
-									<p>Très bonne équipe à prendre au sérieux ! J'ai pu avoir une prestation digne des plus grands. </p>
-								</div>
-								<div class="member_feedback p_30">
-									<div class="client_img"><img src="images/testimonial/02.jpg" alt="image"></div>
-									<div class="star d-inline-block mt_30 color_default">
-										<ul>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-										</ul>
-									</div>
-									<h5 class="color_primary mb_15">Dephine Desez</h5>
-									<p>Une équipe qui a su répondre à mes besoins. Je vous les conseils !</p>
-								</div>
-								<div class="member_feedback p_30">
-									<div class="client_img"><img src="images/testimonial/03.jpg" alt="image"></div>
-									<div class="star d-inline-block mt_30 color_default">
-										<ul>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-										</ul>
-									</div>
-									<h5 class="color_primary mb_15">Pablo Tu</h5>
-									<p>De vieux amis qui ne cessera jamais de m'étonner sur la qualité de leurs travaux. </p>
-								</div>
-								<div class="member_feedback p_30">
-									<div class="client_img"><img src="images/testimonial/04.jpg" alt="image"></div>
-									<div class="star d-inline-block mt_30 color_default">
-										<ul>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-										</ul>
-									</div>
-									<h5 class="color_primary mb_15">Anna mina</h5>
-									<p>J'ai été surprise sur la rapidité que j'ai pu avoir ! je reviendrais sans aucun doute. </p>
-								</div>
-		    				</div>
-		    			</div>
-		    		</div>
-		    	</div>
-		    </div>
-		</div>
-		<!--	End Testimonial
-		===================================================-->
-		<!--	Start Contact
-		===================================================-->
-	    <div id="contact" class="section bg_white pp-scrollable">
-	    	<div class="container">
-	    		<div class="contact pt_60">
-	    			<div class="row">
-		    			<div class="col-md-12 col-lg-12">
-		    				<!--	Start Title
-		    				================================-->
-		    				<div class="main_title pb_60">
-								<h2 class="title color_primary">Contact</h2>
-								<p class="mt_15">Pour toute questions, demande de projet contacter moi grâce à ce formulaire. </p>											
-							</div>
-							<!--	End Title
-		    				================================-->
-		    			</div>
-		    		</div>
-		    		<div class="row">
-		    			<div class="col-md-5 col-lg-4">
-		    				<div class="contact_info">
-		    					<ul>
-		    						<li>
-		    							<div class="contact_icon float-left"><i class="fa fa-phone" aria-hidden="true"></i></div>
-		    							<div class="contact_text">
-		    								<h6 class="font-weight-bold color_primary">TELEPHONE</h6>
-		    								<span class="color_secondery">00687 97.58.16</span>
-		    							</div>
-		    						</li>
-		    						<li>
-		    							<div class="contact_icon float-left"><i class="fa fa-envelope" aria-hidden="true"></i></div>
-		    							<div class="contact_text">
-		    								<h6 class="font-weight-bold color_primary">EMAIL</h6>
-		    								<span class="color_secondery">fabricedujardin873@gmail.com</span>
-		    							</div>
-		    						</li>
-		    						<li>
-		    							<div class="contact_icon float-left"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-		    							<div class="contact_text">
-		    								<h6 class="font-weight-bold color_primary">ADDRESS</h6>
-		    								<span class="color_secondery">150 rue du HAMEAU lotissement deray St-michel NOUVELLE-CALEDONIE</span>
-		    							</div>
-		    						</li>
-		    					</ul>
-		    				</div>
-		    			</div>
-		    			<div class="col-md-7 col-lg-8">
-		    				<form class="form contact_message pb_60" id="contact-form" action="f.dujardin@cci-formation.nc" method="post">
-								<div class="row">
-									<div class="col-md-6 col-lg-6">
-										<div class="form-group">
-											<input class="form-control" type="text" name="name" placeholder="Your Name" />
-										</div>
-									</div>
-									<div class="col-md-6 col-lg-6">
-										<div class="form-group">
-											<input class="form-control" type="email" name="email" placeholder="Email Address" />
-										</div>
-									</div>
-									<div class="col-md-12 col-lg-12">
-										<div class="form-group">
-										  <input class="form-control" type="text" name="subject" placeholder="Subject"/>
-										</div>
-									</div>
-									<div class="col-md-12 col-lg-12">
-										<div class="form-group">
-											<textarea class="form-control" name="message" rows="7" placeholder="Message"></textarea>
-										</div>							
-									</div>
-									<div class="col-md-12 col-lg-12">
-										<div class="form-group">
-											<input class="btn btn-default" id="send" value="Send Massage" type="submit"/>
-										</div>
-									</div>
-									<div class="col-md-12 col-lg-12">
-										<div class="error-handel">
-											<div id="success">Votre email à étà envoyé avec succès, merci.</div>
-											<div id="error"> Une erreur s'est produite lors de l'envoi du courrier électronique. Veuillez réessayer.</div>
-										</div>
-									</div>
-								</div>
-							</form>
-		    			</div>
-		    		</div>
-	    		</div>
-	    	</div>
-	    	<div class="footer pt_60 background6">
-	    		<div class="container">
-	    			<div class="footer_bottom pb_60">
-	    				<div class="row">
-		    				<div class="col-md-12 col-lg-12">
-		    					<div class="row">
-		    						<div class="col-md-6 col-lg-6">
-		    							<div class="footer-widget">
-		    								<div class="footer_title pb_30">
-												<h3 class="widget_title color_white">DERNIERS TWEETS</h3>					
-											</div>
-											<div class="twite color_secondery pb_30">
-												<p class="color_white">Comment repenser et améliorer l'ergonomie de son site web ?<a class="color_default" href="https://twitter.com/Dev_Site_Web/status/410317351213494272"> httm://envato/FabriceNC</a></p>
-												<i class="fa fa-clock-o" aria-hidden="true"></i><span>Poster le 09 DEC 2018</span>
-											</div>
-											<div class="twite color_secondery pb_30">
-												<p class="color_white">Vous cherchez un #Emploi ?
-													Avez-vous déjà pensé à vous faire coopter ?
-													  #Cooptation<a class="color_default" href="https://twitter.com/CooptAction/status/912274889620549634"> httm://envato/FabriceNouméa</a></p>
-												<i class="fa fa-clock-o" aria-hidden="true"></i><span>Posted On 12 Feb 2017</span>
-											</div>
-		    							</div>
-		    						</div>
-		    						<div class="col-md-6 col-lg-6">
-		    							<div class="footer-widget">
-		    								<div class="footer_title pb_30">
-												<h3 class="widget_title color_white">Newsletter Subscribe</h3>		
-											</div>
-											<div class="newsletter">
-												<p class="color_white">Abonner vous à notre newsletter et suivez nous . </p>
-												<div class="subscribe mt_30">
-													<div class="input-group">
-												        <input type="email" class="form-control" placeholder="Entrer votre email">
-												        <button class="btn btn-default" type="submit">Envoyer</button>
-											        </div>
-												</div>
-											</div>
-		    							</div>
-		    						</div>
-		    					</div>
-		    				</div>
-		    			</div>
-	    			</div>
-	    		</div>
-	    		<div class="copyright2 p_20 color_lightgray bg_primary text-center"><p>DUJARDIN Fabrice St-MICHEL  @ 2019. All Right Reserved.</p></div>
-	    	</div>
-	    </div>
-		<!--	End Contact
-		===================================================-->
-	</div>
-	<!--	Js Links
-	===================================================-->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/popper.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/plugins.js"></script>
-	<script src="js/jquery.pagepiling.min.js"></script>
-	<script src="js/custom.js"></script>
-	<script>
-		var deleteLog = false;
-		//	Pagepiling js
-		//=====================================================
-		$(document).ready(function() {
-	    	$('#pagepiling').pagepiling({
-		    	menu: '#menu',
-		    	anchors: ['page1', 'page2', 'page3', 'page4', 'page5','page6', 'page7', 'page8','page9'],
-		    	loopTop: true,
-		    	loopBottom: true
-		  	});
-	    });
-		//	Sidebar Nav Menu js
-		//=====================================================
-		function openNav() {
-		    document.getElementById("mysidenav").style.width = "150px";
-		}
-		function closeNav() {
-		    document.getElementById("mysidenav").style.width = "0";
-		}
-    </script>
+<body class="moto-background moto-website_live">
+<div class="page">
+<header id="section-header" class="header moto-section" data-widget="section" data-container="section">
+<div class="moto-widget moto-widget-block moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="block" data-spacing="aaaa" style="background-image:url(mt-demo/68100/68197/mt-content/uploads/2018/07/mt-1532-content-bg-1.jpg);background-position:top;background-repeat:no-repeat;background-size:cover;" data-bg-image="2018/07/mt-1532-content-bg-1.jpg" data-bg-position="top">
+<div class="container-fluid">
+<div class="row">
+<div class="moto-cell col-sm-12" data-container="container">
+<div data-widget-id="wid__spacer__5b2351ba2752d" class="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-medium moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto "
+data-widget="spacer" data-preset="default" data-spacing="maaa" data-visible-on="mobile-v">
+<div class="moto-widget-spacer-block" style="height:20px"></div>
+</div>
+<div class="moto-widget moto-widget-row row-fixed moto-justify-content_center moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-grid-type="sm" data-widget="row" data-spacing="aaaa" style="" data-bg-position="left top">
+<div class="container-fluid">
+<div class="row" data-container="container">
+<div class="moto-widget moto-widget-row__column moto-cell col-sm-3 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa">
+<div class="moto-widget moto-widget-row moto-justify-content_center moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-grid-type="xs" data-widget="row" data-spacing="aaaa" style="" data-bg-position="left top">
+<div class="container-fluid">
+<div class="row" data-container="container">
+<div class="moto-widget moto-widget-row__column moto-cell col-xs-3 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+<div data-widget-id="wid_1531242875_i4wtycokg" class="moto-widget moto-widget-image moto-preset-default  moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto  " data-widget="image">
+<a class="moto-widget-image-link moto-link" href="index.html"   data-action="page">
+<img data-src="/mt-demo/68100/68197/mt-content/uploads/2018/07/mt-1532-logo.png" class="moto-widget-image-picture lazyload" data-id="267" title="" alt="">
+</a>
+</div>
+</div>
+<div class="moto-widget moto-widget-row__column moto-cell col-xs-9 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+<div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aaaa" data-animation="">
+<div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_1">
+    <a href="index.html" data-action="page" data-id="1" class="moto-link"><strong class="fontMari">MARIJUANA</strong></a>
+</p><p class="moto-text_system_1"><a href="index.html" data-action="page" data-id="1" class="moto-link">
+<strong class="fontMari">SAVEUR</strong></a></p>
+<p class="moto-text_186"><a href="index.html" data-action="page" data-id="1" class="moto-link">
+<strong id="fontTitre">Fruit/Chocolat</strong></a></p></div>
+</div></div>
+
+                
+            
+        </div>
+    </div>
+</div></div><div class="moto-widget moto-widget-row__column moto-cell col-sm-9 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa">
+    
+<div data-widget-id="wid__menu__5b2351ba31010" class="moto-widget moto-widget-menu moto-preset-default moto-align-right moto-align-center_mobile-h moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-preset="default" data-widget="menu">
+            <a href="#" class="moto-widget-menu-toggle-btn"><i class="moto-widget-menu-toggle-btn-icon fa fa-bars"></i></a>
+        <ul class="moto-widget-menu-list moto-widget-menu-list_horizontal">
+            <li class="moto-widget-menu-item moto-widget-menu-item-has-submenu">
+    <a href="about-us/index.html"   data-action="page" class="moto-widget-menu-link moto-widget-menu-link-level-1 moto-widget-menu-link-submenu moto-link"><strong class="changementDeCouleur">À PROPOS DE NOUS</strong><span class="fa moto-widget-menu-link-arrow"></span></a>
+                <ul class="moto-widget-menu-sublist">
+                    <li class="moto-widget-menu-item">
+    <a href="single-product/index.html"   data-action="page" class="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link">Produit unique</a>
+        </li>
+                    
+                    <li class="moto-widget-menu-item moto-widget-menu-item-has-submenu">
+    
+        </li>
+            </ul>
+
+        
+        </li><li class="moto-widget-menu-item">
+    <a href="products/index.html"   data-action="page" class="moto-widget-menu-link moto-widget-menu-link-level-1 moto-link"><strong class="changementDeCouleur">PRODUITS</strong></a>
+        </li><li class="moto-widget-menu-item">
+    <a href="price/index.html"   data-action="page" class="moto-widget-menu-link moto-widget-menu-link-level-1 moto-link"><strong class="changementDeCouleur">PARTAGE D'ABONNER</strong></a>
+        </li><li class="moto-widget-menu-item">
+    <a href="contact/index.html"   data-action="page" class="moto-widget-menu-link moto-widget-menu-link-level-1 moto-link"><strong class="changementDeCouleur">CONTACT</strong></a>
+        </li>        </ul>
+    </div></div>
+<!--...............................................................................................................................................-->
+                
+            
+        </div>
+    </div>
+</div><div data-widget-id="wid_1531243256_5om5z2wgk" class="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-medium moto-spacing-right-auto moto-spacing-bottom-medium moto-spacing-left-auto moto-visible-on_desktop"
+    data-widget="spacer" data-preset="default" data-spacing="mama" data-visible-on="desktop">
+    <div class="moto-widget-spacer-block" style="height:10px"></div>
+</div><div class="moto-widget moto-widget-row row-fixed moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-large moto-spacing-left-auto" data-grid-type="sm" data-widget="row" data-spacing="lala" style="" data-bg-position="left top">
+    
+    
+    <div class="container-fluid">
+        <div class="row" data-container="container">
+            
+                
+                    <div class="moto-widget moto-widget-row__column moto-cell col-sm-12 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+    
+<div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aaaa" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_6" style="text-align: center;">MARIJUANA DE QUALITÉ<br> SUPÉRIEURE</p></div>
+</div><div data-widget-id="wid_1531243178_cilfzs646" class="moto-widget moto-widget-divider moto-preset-default moto-align-center moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto  " data-widget="divider_horizontal" data-preset="default">
+    <hr class="moto-widget-divider-line" style="max-width:100%;width:50px;">
+</div><div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-medium moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aama" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_2" style="text-align: center;">Vos vacances en nouvelle calédonie deviendront certainement un souvenir précieux d’un endroit dans lequel vous voudrez toujours revenir grace aux saveur debordante des éspéce de nouvelle-calédonie !</p></div>
+</div><div data-widget-id="wid__button__5b2351ba33d3d" class="moto-widget moto-widget-button moto-preset-default moto-align-center moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto  " data-widget="button">
+            <a href="about-us/index.html"   data-action="page" class="moto-widget-button-link moto-size-medium moto-link"><span class="fa moto-widget-theme-icon"></span> <span class="moto-widget-button-label">À PROPOS DE NOUS</span></a>
+    </div></div>
+
+                
+            
+        </div>
+    </div>
+</div><div data-widget-id="wid_1531243292_wnv7wtvwv" class="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-large moto-spacing-left-auto moto-visible-on_desktop"
+    data-widget="spacer" data-preset="default" data-spacing="sala" data-visible-on="desktop">
+    <div class="moto-widget-spacer-block" style="height:20px"></div>
+</div><div data-widget-id="wid_1531301470_2snltpjay" class="moto-widget moto-widget-actions-open-popup" data-widget="actions.open_popup" data-actions-open-popup-options="{&quot;actionId&quot;:&quot;wid_1531301470_2snltpjay_1531301470641&quot;,&quot;popupId&quot;:10,&quot;triggerType&quot;:&quot;timer&quot;,&quot;delayTime&quot;:2000,&quot;recurrenceCondition&quot;:&quot;session&quot;,&quot;recurrenceOptions&quot;:{&quot;shows&quot;:1,&quot;overtime&quot;:86400}}">
+    </div></div>
+        </div>
+    </div>
+</div>            
+        </header>
+
+        <section id="section-content" class="content page-1 moto-section" data-widget="section" data-container="section">
+                                    <div class="moto-widget moto-widget-block moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-large moto-spacing-left-auto" data-widget="block" data-spacing="lala" style="">
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="moto-cell col-sm-12" data-container="container">
+                
+            <div class="moto-widget moto-widget-row row-fixed moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-grid-type="sm" data-widget="row" data-spacing="aaaa" style="">
+    
+    <div class="container-fluid">
+        <div class="row" data-container="container">
+            
+                
+                    <div class="moto-widget moto-widget-row__column moto-cell col-sm-12 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+<div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aaaa" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_8">A NE PAS RATER</p></div>
+</div></div>
+
+                
+            
+        </div>
+    </div>
+</div><div class="moto-widget moto-widget-row row-fixed moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-grid-type="sm" data-widget="row" data-spacing="aaaa" style="">
+    
+    <div class="container-fluid">
+        <div class="row" data-container="container">
+            
+                
+                    
+
+                
+            
+        <div class="moto-widget moto-widget-row__column moto-cell col-sm-3 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+    
+        
+            <div data-widget-id="wid_1531245567_5kek9peg0" class="moto-widget moto-widget-image moto-preset-default moto-align-center moto-spacing-top-medium moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto  " data-widget="image">
+                        <span class="moto-widget-image-link">
+                <img data-src="/mt-demo/68100/68197/mt-content/uploads/2018/07/mt-1532-home-img-2.jpg" class="moto-widget-image-picture lazyload" data-id="228" title="" alt="">
+            </span>
+            </div>
+        
+    
+        
+            <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aasa" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_9" style="text-align: center;"><a href="#" target="_self" data-action="url" class="moto-link">PRODUIT UNIQUE</a></p></div>
+</div>
+        
+    
+        
+            <div data-widget-id="wid_1531245567_5b4ltea77" class="moto-widget moto-widget-button moto-preset-2 moto-align-center moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto  " data-widget="button">
+            <a href="single-product/index.html"   data-action="page" class="moto-widget-button-link moto-size-medium moto-link"><span class="fa moto-widget-theme-icon"></span> <span class="moto-widget-button-label">VOIR</span></a>
+    </div>
+        
+    
+</div><div class="moto-widget moto-widget-row__column moto-cell col-sm-3 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+    
+        
+            <div data-widget-id="wid_1531245566_ynml3b93r" class="moto-widget moto-widget-image moto-preset-default moto-align-center moto-spacing-top-medium moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto  " data-widget="image">
+                        <span class="moto-widget-image-link">
+                <img data-src="/mt-demo/68100/68197/mt-content/uploads/2018/07/mt-1532-home-img-3.jpg" class="moto-widget-image-picture lazyload" data-id="229" title="" alt="">
+            </span>
+            </div>
+        
+    
+        
+            <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aasa" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_9" style="text-align: center;"><a target="_self" data-action="url" class="moto-link" href="#">NOS RÉFÉRENCEMENTS </a></p></div>
+</div>
+        
+    
+        
+            <div data-widget-id="wid_1531245566_tv3tpscbn" class="moto-widget moto-widget-button moto-preset-2 moto-align-center moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto  " data-widget="button">
+            <a href="products/index.html"   data-action="page" class="moto-widget-button-link moto-size-medium moto-link"><span class="fa moto-widget-theme-icon"></span> <span class="moto-widget-button-label">VOIR</span></a>
+    </div>
+        
+    
+</div><div class="moto-widget moto-widget-row__column moto-cell col-sm-3 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+    
+        
+            <div data-widget-id="wid_1531245564_7apsohxtf" class="moto-widget moto-widget-image moto-preset-default moto-align-center moto-spacing-top-medium moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto  " data-widget="image">
+                        <span class="moto-widget-image-link">
+                <img data-src="/mt-demo/68100/68197/mt-content/uploads/2018/07/mt-1532-home-img-4.jpg" class="moto-widget-image-picture lazyload" data-id="230" title="" alt="">
+            </span>
+            </div>
+        
+    
+        
+            <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aasa" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_9" style="text-align: center;"><a target="_self" data-action="url" class="moto-link" href="#">NOS PARTAGES&nbsp;</a></p></div>
+</div>
+        
+    
+        
+            <div data-widget-id="wid_1531245564_qeo46ctek" class="moto-widget moto-widget-button moto-preset-2 moto-align-center moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto  " data-widget="button">
+            <a href="price/index.html"   data-action="page" class="moto-widget-button-link moto-size-medium moto-link"><span class="fa moto-widget-theme-icon"></span> <span class="moto-widget-button-label">VOIR</span></a>
+    </div>
+        
+    
+</div></div>
+    </div>
+</div></div>
+        </div>
+    </div>
+</div><div class="moto-widget moto-widget-block moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-large moto-spacing-left-auto" data-widget="block" data-spacing="lala" style="background-image:url(mt-demo/68100/68197/mt-content/uploads/2018/07/mt-1532-content-bg-2.jpg);background-position:center;background-repeat:no-repeat;background-size:cover;" data-bg-position="center" data-bg-image="2018/07/mt-1532-content-bg-2.jpg/index.html">
+    
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="moto-cell col-sm-12" data-container="container">
+                
+                    
+                        <div class="moto-widget moto-widget-row row-fixed moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-grid-type="sm" data-widget="row" data-spacing="aaaa" style="" data-bg-position="left top">
+    
+    
+    <div class="container-fluid">
+        <div class="row" data-container="container">
+            
+                
+                    <div class="moto-widget moto-widget-row__column moto-cell col-sm-6 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+    
+        
+            <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aaaa" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_8"><span class="moto-color5_5">CalédoWeed référence aux mieux les différentes variétés de cannabis aux arome fruité et chocolat afin de permettre son identification.  </span></p></div>
+</div><div data-widget-id="wid_1531245847_gnqjyzhqc" class="moto-widget moto-widget-divider moto-preset-default moto-align-left moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto  " data-widget="divider_horizontal" data-preset="default">
+    <hr class="moto-widget-divider-line" style="max-width:100%;width:50px;">
+</div>
+        
+    
+<div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aasa" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_normal"><span class="moto-color5_5">Tout comme pour le vin, il existe toute une palette aromatique pour décrire les différentes saveurs et odeurs que peut offrir le cannabis. Les molécules aromatiques (terpènes) sont créées dans les trichomes (bulles de résine), aux cotés des cannabinoïdes (THC, CBD, etc.…)
+Il faut d’ailleurs savoir que ces molécules aromatiques influent sur les effets du cannabis, en modulant l’action du THC. Parmi toutes les familles de saveurs (épicées, boisées, florales….), les variétés les plus recherchées sont celles qui possèdent un bon gout sucré et fruité. Meilleures variétés de cannabis au gout fruité sucré
+Certaines plantes seront du côté agrumes (citron, orange, pamplemousse….) d’autres plutôt du coté fruits rouges (cerise, fraise, myrtille, baies…), d’autres auront un gout tropical (ananas, mangue…) en passant même par l'arôme du chocolat , en fait dans le cannabis on peut retrouver tous les fruits existants dans la Nature !</span></p></div>
+</div><div data-widget-id="wid_1531245870_hwso68g67" class="moto-widget moto-widget-button moto-preset-default moto-align-left moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto  " data-widget="button">
+<a href="about-us/index.html"   data-action="page" class="moto-widget-button-link moto-size-medium moto-link"><span class="fa moto-widget-theme-icon"></span> <span class="moto-widget-button-label">APPRENDRE ENCORE PLUS</span></a>
+</div></div><div class="moto-widget moto-widget-row__column moto-cell col-sm-6 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+<div class="moto-widget moto-widget-row moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-grid-type="xs" data-widget="row" data-spacing="aaaa" style="" data-bg-position="left top">
+    
+    
+    <div class="container-fluid">
+        <div class="row" data-container="container">
+            
+                
+                    <div class="moto-widget moto-widget-row__column moto-cell col-xs-6 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+    
+<div data-widget-id="wid_1531245806_ibpmh6adr" class="moto-widget moto-widget-image moto-preset-3 moto-align-center moto-spacing-top-medium moto-spacing-right-auto moto-spacing-bottom-zero moto-spacing-left-auto  " data-widget="image">
+                        <span class="moto-widget-image-link">
+                <img data-src="/mt-demo/68100/68197/mt-content/uploads/2018/07/mt-1532-home-img-5.jpg" class="moto-widget-image-picture lazyload" data-id="231" title="" alt="">
+            </span>
+            </div></div><div class="moto-widget moto-widget-row__column moto-cell col-xs-6 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+    
+<div data-widget-id="wid_1531245712_k4cvhl4sn" class="moto-widget moto-widget-image moto-preset-3 moto-align-center moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto  " data-widget="image">
+                        <span class="moto-widget-image-link">
+                <img data-src="/mt-demo/68100/68197/mt-content/uploads/2018/07/mt-1532-home-img-6.jpg" class="moto-widget-image-picture lazyload" data-id="232" title="" alt="">
+            </span>
+            </div></div>
+
+                
+            
+        </div>
+    </div>
+</div></div>
+
+                
+            
+        </div>
+    </div>
+</div>
+                    
+                
+                    
+                        
+                    
+                
+            </div>
+        </div>
+    </div>
+</div><div class="moto-widget moto-widget-block moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-large moto-spacing-left-auto" data-widget="block" data-spacing="lala" style="" data-bg-position="left top">
+    
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="moto-cell col-sm-12" data-container="container">
+                
+                    
+                        <div class="moto-widget moto-widget-row row-fixed moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-grid-type="sm" data-widget="row" data-spacing="aaaa" style="" data-bg-position="left top">
+    
+    
+    <div class="container-fluid">
+        <div class="row" data-container="container">
+            
+                
+                    <div class="moto-widget moto-widget-row__column moto-cell col-sm-12 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+    
+        
+            <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aaaa" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_8" style="text-align: center;">POURQUOI CHOISIR CES PRODUITS</p></div>
+</div>
+        
+    
+</div>
+
+                
+            
+        </div>
+    </div>
+</div>
+                    
+                
+                    
+                        <div class="moto-widget moto-widget-row row-fixed moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-grid-type="sm" data-widget="row" data-spacing="aaaa" style="" data-bg-position="left top">
+    
+    
+    <div class="container-fluid">
+        <div class="row" data-container="container">
+            
+                
+                    <div class="moto-widget moto-widget-row__column moto-cell col-sm-3 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+    
+        
+            
+        
+    
+        
+            <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-medium moto-spacing-right-small moto-spacing-bottom-auto moto-spacing-left-small" data-widget="text" data-preset="default" data-spacing="msas" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_9" style="text-align: center;"><span class="moto-content-image-plugin-wrapper moto-spacing-top-zero moto-spacing-right-zero moto-spacing-bottom-small moto-spacing-left-zero"><span class="moto-content-image-container"><img class="moto-content-image" data-path="2018/07/mt-1532-home-icon-1.png" data-id="223" alt="" src="mt-demo/68100/68197/mt-content/uploads/2018/07/mt-1532-home-icon-1.png" width="72" height="72"></span></span></p><p class="moto-text_system_9" style="text-align: center;"><a data-action="page" data-id="10" class="moto-link" href="about-us/index.html">SERRE</a></p><p class="moto-text_system_9" style="text-align: center;">&nbsp;</p><p style="text-align: center;" class="moto-text_normal"> Se cannabis est cultivé en serre avec amoure</p></div>
+</div>
+        
+    
+        
+            
+        
+    
+</div>
+
+                
+            
+                
+                    
+
+                
+            
+                
+                    
+
+                
+            
+                
+                    
+
+                
+            
+        <div class="moto-widget moto-widget-row__column moto-cell col-sm-3 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+    
+        
+            <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-medium moto-spacing-right-small moto-spacing-bottom-auto moto-spacing-left-small" data-widget="text" data-preset="default" data-spacing="msas" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_9" style="text-align: center;"><span class="moto-content-image-plugin-wrapper moto-spacing-top-zero moto-spacing-right-zero moto-spacing-bottom-small moto-spacing-left-zero"><span class="moto-content-image-container"><img class="moto-content-image" data-path="2018/07/mt-1532-home-icon-2.png" data-id="224" alt="" src="mt-demo/68100/68197/mt-content/uploads/2018/07/mt-1532-home-icon-2.png" width="72" height="72"></span></span></p><p class="moto-text_system_9" style="text-align: center;"><a data-action="page" data-id="10" class="moto-link" href="about-us/index.html">CANNABIS DE QUALITER </a></p><p class="moto-text_system_9" style="text-align: center;">&nbsp;</p><p style="text-align: center;" class="moto-text_normal">Ce cannabis respecte les normes de bien être des utilisateurs</p></div>
+</div>
+        
+    
+</div><div class="moto-widget moto-widget-row__column moto-cell col-sm-3 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+    
+        
+            <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-medium moto-spacing-right-small moto-spacing-bottom-auto moto-spacing-left-small" data-widget="text" data-preset="default" data-spacing="msas" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_9" style="text-align: center;"><span class="moto-content-image-plugin-wrapper moto-spacing-top-zero moto-spacing-right-zero moto-spacing-bottom-small moto-spacing-left-zero"><span class="moto-content-image-container"><img class="moto-content-image" data-path="2018/07/mt-1532-home-icon-3.png" data-id="225" alt="" src="mt-demo/68100/68197/mt-content/uploads/2018/07/mt-1532-home-icon-3.png" width="72" height="72"></span></span></p><p class="moto-text_system_9" style="text-align: center;"><a data-action="page" data-id="10" class="moto-link" href="about-us/index.html">DURABLE</a></p><p class="moto-text_system_9" style="text-align: center;">&nbsp;</p><p style="text-align: center;" class="moto-text_normal">Utilisation de produits locaux.</p></div>
+</div>
+        
+    
+</div><div class="moto-widget moto-widget-row__column moto-cell col-sm-3 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+    
+        
+            <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-medium moto-spacing-right-small moto-spacing-bottom-auto moto-spacing-left-small" data-widget="text" data-preset="default" data-spacing="msas" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_9" style="text-align: center;"><span class="moto-content-image-plugin-wrapper moto-spacing-top-zero moto-spacing-right-zero moto-spacing-bottom-small moto-spacing-left-zero"><span class="moto-content-image-container"><img class="moto-content-image" data-path="2018/07/mt-1532-home-icon-4.png" data-id="226" alt="" src="mt-demo/68100/68197/mt-content/uploads/2018/07/mt-1532-home-icon-4.png" width="72" height="72"></span></span></p><p class="moto-text_system_9" style="text-align: center;"><a data-action="page" data-id="10" class="moto-link" href="about-us/index.html">PROFESSIONNELLES</a></p><p class="moto-text_system_9" style="text-align: center;">&nbsp;</p><p style="text-align: center;" class="moto-text_normal">Afin de pouvoir être aux tops ces variété sans gérer par une grande famille de connaisseurs de cannabis</p></div>
+</div>
+        
+    
+</div></div>
+    </div>
+</div>
+                    
+                
+            </div>
+        </div>
+    </div>
+</div><div class="moto-widget moto-widget-block moto-bg-color_custom5 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="block" data-spacing="aaaa" style="">
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="moto-cell col-sm-12" data-container="container">
+                
+            <div class="moto-widget moto-widget-row moto-justify-content_center moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-grid-type="sm" data-widget="row" data-spacing="aaaa" style="">
+    
+    <div class="container-fluid">
+        <div class="row" data-container="container">
+            
+                
+                    <div class="moto-widget moto-widget-row__column moto-cell col-sm-2 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa">
+    
+</div>
+
+                
+            
+                
+                    <div class="moto-widget moto-widget-row__column moto-cell col-sm-4 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa">
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+<div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-medium moto-spacing-right-medium moto-spacing-bottom-auto moto-spacing-left-medium" data-widget="text" data-preset="default" data-spacing="mmam" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_8">Fiabilité du produit.&nbsp;</p></div>
+</div><div data-widget-id="wid__divider_horizontal__5b44f281919f0" class="moto-widget moto-widget-divider moto-preset-default moto-align-left moto-spacing-top-small moto-spacing-right-medium moto-spacing-bottom-small moto-spacing-left-medium  " data-widget="divider_horizontal" data-preset="default">
+    <hr class="moto-widget-divider-line" style="max-width:100%;width:50px;">
+</div><div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-small moto-spacing-right-medium moto-spacing-bottom-small moto-spacing-left-medium" data-widget="text" data-preset="default" data-spacing="smsm" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_normal">Grace à nos testeurs anonyme nous notant la qualité de ces produits et évaluant aux mieux l’effet ainsi que les gouts que dégage ces variétés tellement demander de nos jours. Grace à eux nous pouvons identifier avec un tôt dépassant les 80 % de fiabilité un arome qui si dégagerais.  </p></div>
+</div><div data-widget-id="wid__button__5b44f28191c41" class="moto-widget moto-widget-button moto-preset-3 moto-align-left moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-medium moto-spacing-left-medium  " data-widget="button">
+            <a href="price/index.html"   data-action="page" class="moto-widget-button-link moto-size-medium moto-link"><span class="fa moto-widget-theme-icon"></span> <span class="moto-widget-button-label">PRIX</span></a>
+    </div></div>
+
+                
+            
+                
+                    <div class="moto-widget moto-widget-row__column moto-cell col-sm-6 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="background-image:url(mt-demo/68100/68197/mt-content/uploads/2018/07/mt-1532-content-bg-3.jpg);background-position:center;background-repeat:no-repeat;background-size:cover;" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-image="2018/07/mt-1532-content-bg-3.jpg" data-bg-position="center">
+    
+        
+            
+        
+    
+<div data-widget-id="wid__spacer__5b44f28191e87" class="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto "
+    data-widget="spacer" data-preset="default" data-spacing="aaaa" data-visible-on="mobile-v">
+    <div class="moto-widget-spacer-block" style="height:250px"></div>
+</div><div data-widget-id="wid__spacer__5b44f28192084" class="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto moto-visible-on_desktop"
+    data-widget="spacer" data-preset="default" data-spacing="aaaa" data-visible-on="desktop">
+    <div class="moto-widget-spacer-block" style="height:400px"></div>
+</div></div>
+
+                
+            
+                
+                    
+
+                
+            
+        </div>
+    </div>
+</div><div class="moto-widget moto-widget-row moto-justify-content_center moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-grid-type="sm" data-widget="row" data-spacing="aaaa" style="">
+    
+    <div class="container-fluid">
+        <div class="row" data-container="container">
+            
+                
+                    <div class="moto-widget moto-widget-row__column moto-cell col-sm-6 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="background-image:url(mt-demo/68100/68197/mt-content/uploads/2018/07/mt-1532-content-bg-4.jpg);background-position:center;background-repeat:no-repeat;background-size:cover;" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-image="2018/07/mt-1532-content-bg-4.jpg" data-bg-position="center">
+    
+<div data-widget-id="wid__spacer__5b44f281922ac" class="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto "
+    data-widget="spacer" data-preset="default" data-spacing="aaaa" data-visible-on="mobile-v">
+    <div class="moto-widget-spacer-block" style="height:250px"></div>
+</div><div data-widget-id="wid__spacer__5b44f281924a5" class="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto moto-visible-on_desktop"
+    data-widget="spacer" data-preset="default" data-spacing="aaaa" data-visible-on="desktop">
+    <div class="moto-widget-spacer-block" style="height:400px"></div>
+</div></div><div class="moto-widget moto-widget-row__column moto-cell col-sm-4 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa">
+    
+<div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-medium moto-spacing-right-medium moto-spacing-bottom-auto moto-spacing-left-medium" data-widget="text" data-preset="default" data-spacing="mmam" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_8">Particularité  de la variété fruité </p></div>
+</div><div data-widget-id="wid__divider_horizontal__5b44f281926a3" class="moto-widget moto-widget-divider moto-preset-default moto-align-left moto-spacing-top-small moto-spacing-right-medium moto-spacing-bottom-small moto-spacing-left-medium  " data-widget="divider_horizontal" data-preset="default">
+    <hr class="moto-widget-divider-line" style="max-width:100%;width:50px;">
+</div><div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-small moto-spacing-right-medium moto-spacing-bottom-small moto-spacing-left-medium" data-widget="text" data-preset="default" data-spacing="smsm" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_normal">Certains terpènes et terpénoïdes ont des effets sédatifs sur 70 % des variété fruité .  </p><p class="moto-text_normal">&nbsp;</p><p class="moto-text_system_9"><u> Evalution du marché </u></p><p class="moto-text_normal">Valeur du grame 989/cfp ;<br>Avis des utilisateur 9/10,<br> Valeur en augmentation sur <br>le marché du cannabis.  </p><p class="moto-text_normal">Détiens une part de 4/10éme <br>des ventes de cannabis dans le monde. </p></div>
+</div><div data-widget-id="wid__button__5b44f281928f0" class="moto-widget moto-widget-button moto-preset-2 moto-align-left moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-medium moto-spacing-left-medium  " data-widget="button">
+            <a href="special/index.html"   data-action="page" class="moto-widget-button-link moto-size-medium moto-link"><span class="fa moto-widget-theme-icon"></span> <span class="moto-widget-button-label">PLUS DE DÉTAILS</span></a>
+    </div></div><div class="moto-widget moto-widget-row__column moto-cell col-sm-2 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa">
+    
+</div>
+
+                
+            
+        </div>
+    </div>
+</div></div>
+        </div>
+    </div>
+</div><div class="moto-widget moto-widget-block moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-large moto-spacing-left-auto" data-widget="block" data-spacing="lala" style="background-image:url(mt-demo/68100/68197/mt-content/uploads/2018/07/mt-1532-content-bg-5.jpg);background-position:left top;background-repeat:no-repeat;background-size:cover;" data-bg-position="left top" data-bg-image="2018/07/mt-1532-content-bg-5.jpg/index.html">
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="moto-cell col-sm-12" data-container="container">
+                
+            <div class="moto-widget moto-widget-row row-fixed moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-grid-type="sm" data-widget="row" data-spacing="aaaa" style="">
+    
+    <div class="container-fluid">
+        <div class="row" data-container="container">
+            
+                
+                    <div class="moto-widget moto-widget-row__column moto-cell col-sm-12 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+<div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aaaa" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_8">COMMENTAIRES DES UTILISATEURS</p></div>
+</div><div data-widget-id="wid__divider_horizontal__5b44f28192b06" class="moto-widget moto-widget-divider moto-preset-default moto-align-left moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto  " data-widget="divider_horizontal" data-preset="default">
+    <hr class="moto-widget-divider-line" style="max-width:100%;width:50px;">
+</div><div class="moto-widget moto-widget-row moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-grid-type="sm" data-widget="row" data-spacing="aaaa" style="" data-bg-position="left top">
+    
+    
+    <div class="container-fluid">
+        <div class="row" data-container="container">
+            
+                
+                    <div class="moto-widget moto-widget-row__column moto-cell col-sm-6 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+    
+<div class="moto-widget moto-widget-row moto-spacing-top-medium moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-grid-type="xs" data-widget="row" data-spacing="maaa" style="" data-bg-position="left top">
+    
+    
+    <div class="container-fluid">
+        <div class="row" data-container="container">
+            
+                
+                    <div class="moto-widget moto-widget-row__column moto-cell col-xs-2 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+    
+<div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aaaa" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_9" style="text-align: right;"><span class="moto-color2_3"><span class="fa"></span></span></p></div>
+</div></div><div class="moto-widget moto-widget-row__column moto-cell col-xs-10 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+    
+<div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aaaa" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_normal">J'ai pu planer littéralement et eu le droit à un bon moment de dégustation et de détente. Je vous conseille cette variété. </p><p class="moto-text_normal">&nbsp;</p><p class="moto-text_206"><br><br>Annonymous  Bourail </p></div>
+</div></div>
+
+                
+            
+        </div>
+    </div>
+</div></div><div class="moto-widget moto-widget-row__column moto-cell col-sm-6 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+    
+<div class="moto-widget moto-widget-row moto-spacing-top-medium moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-grid-type="xs" data-widget="row" data-spacing="maaa" style="" data-bg-position="left top">
+    
+    
+    <div class="container-fluid">
+        <div class="row" data-container="container">
+            
+                
+                    <div class="moto-widget moto-widget-row__column moto-cell col-xs-2 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+    
+        
+            <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aaaa" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_9" style="text-align: right;"><span class="moto-color2_3"><span class="fa"></span></span></p></div>
+</div>
+        
+    
+</div>
+
+                
+            
+                
+                    <div class="moto-widget moto-widget-row__column moto-cell col-xs-10 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+    
+        
+            <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aaaa" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_normal">Cela devrait avoir dix étoiles ... Ça y est, c'est tous les cannabinoïdes qui navigue dans votre système, réparant des choses, ajustant les organes, les glandes, de votre corps et qui vous fait planer en dessous une pluie d’arôme tropicale. </p><p class="moto-text_normal">&nbsp;</p><p class="moto-text_206">Anonymous Saint-Michel</p></div>
+</div>
+        
+    
+</div>
+
+                
+            
+        </div>
+    </div>
+</div></div>
+
+                
+            
+        </div>
+    </div>
+</div></div>
+
+                
+            
+        </div>
+    </div>
+</div></div>
+        </div>
+    </div>
+</div><div class="moto-widget moto-widget-block moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-large moto-spacing-left-auto" data-widget="block" data-spacing="lala" style="" data-bg-position="left top">
+    
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="moto-cell col-sm-12" data-container="container">
+                
+                    
+                        <div class="moto-widget moto-widget-row row-fixed moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-grid-type="sm" data-widget="row" data-spacing="aaaa" style="" data-bg-position="left top">
+    
+    
+    <div class="container-fluid">
+        <div class="row" data-container="container">
+            
+                
+                    <div class="moto-widget moto-widget-row__column moto-cell col-sm-12 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+    
+        
+            <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aaaa" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_8" style="text-align: center;">INFO WEED .NC</p></div>
+</div>
+        
+    
+        
+            <div data-widget-id="wid_1531247196_093j0j7vr" class="moto-widget moto-widget-divider moto-preset-default moto-align-center moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto  " data-widget="divider_horizontal" data-preset="default">
+    <hr class="moto-widget-divider-line" style="max-width:100%;width:50px;">
+</div><div id="wid_1531247233_ak03421fy" class="moto-widget moto-widget-tabs  moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto   moto-preset-default moto-widget-tabs_type-horizontal moto-disabling_row-fixed set-row-gutter-0" data-widget="tabs" data-preset="default">
+    <div class="moto-widget-tabs__wrapper">
+        <div class="moto-widget-tabs__headers-wrapper moto-widget-tabs__headers-wrapper_icon-left moto-widget-tabs__headers-wrapper_headers-left" style="width: auto;">
+                        <div class="moto-widget-tabs__header moto-widget-tabs__header_desktop moto-widget-tabs__header_opened" data-tab="wid_1531247260_gjl0papci">
+                                <div class="moto-widget-tabs__header-item moto-widget-tabs__header-title">JUN 17</div>          
+                    </div>
+        <div id="wid_1531247233_ak03421fy__content" class="moto-widget-tabs__items-wrapper">
+                                                <div id="wid_1531247260_gjl0papci" data-parent-id="wid_1531247233_ak03421fy" class="moto-widget moto-widget-tabs__item " data-widget="tabs.item">
+    <div class="moto-widget-tabs__header moto-widget-tabs__header_mobile moto-widget-tabs__header_opened" data-tab="wid_1531247260_gjl0papci">
+                <div class="moto-widget-tabs__header-item moto-widget-tabs__header-title">JUNE 25</div>    </div>
+    <div class="moto-widget__content-wrapper moto-widget-tabs__content-wrapper" style="display: block;">
+        <div id="wid_1531247260_gjl0papci__content" class="moto-widget__content moto-widget-tabs__content">
+                                                <div data-widget-id="wid_1531247317_1ldbtwrwd" class="moto-widget moto-widget-row row-gutter-0 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-grid-type="sm" data-widget="row" data-spacing="aaaa" style="background-position:left top;" >
+            <div class="container-fluid">
+        <div class="row" data-container="container">
+                                                <div data-widget-id="wid_1531247317_292r5xdah" class="moto-widget moto-widget-row__column moto-cell  col-sm-6 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="background-position:center;background-image:url(mt-demo/68100/68197/mt-content/uploads/2018/07/mt-1532-home-img-7.jpg);background-size:cover;background-repeat:no-repeat;"  data-widget="row.column" data-container="container" data-spacing="aaaa">
+                            <div data-widget-id="wid_1531247565_xmmnu0zlu" class="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto "
+    data-widget="spacer" data-preset="default" data-spacing="aaaa" data-visible-on="mobile-v">
+    <div class="moto-widget-spacer-block" style="height:200px"></div>
+</div>
+            </div>
+
+                                                                <div data-widget-id="wid_1531247319_1xehmmj9b" class="moto-widget moto-widget-row__column moto-cell  col-sm-6 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="background-position:left top;"  data-widget="row.column" data-container="container" data-spacing="aaaa">
+                            <div data-widget-id="wid_1531247364_61x160acd" class="moto-widget moto-widget-text moto-preset-default  moto-spacing-top-medium moto-spacing-right-medium moto-spacing-bottom-small moto-spacing-left-medium  " data-widget="text" data-preset="default" data-spacing="mmsm" data-visible-on="mobile-v" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_7"><strong><span class="moto-color1_3">LARRY BIRD KUSH</span></strong></p><p class="moto-text_normal"><span class="moto-color_custom3">Jun 17, 2019</span></p><p class="moto-text_normal">&nbsp;</p><p class="moto-text_normal">La Larry Bird Kush est un spécimen hybride bien équilibré qui saura satisfaire les fumeurs aimant autant les variétés indica que sativa. Fruit de l'union des variétés-parents Sunset Sherbet et Thin Mint Girl Scout Cookies, cette demoiselle offre des goûts de forêt et des arômes de terre, de fleurs, de menthe et de pin. Ce délicieux profil de terpènes est complété par un intense effet propulsé par une teneur en THC de 26 %. Les effets sont équilibrés, en relaxant le corps tout en stimulant l'esprit dans des états créatifs et énergétiques. Les plants en intérieur produisent des rendements entre 550 et 760 g/m², alors que les plants en extérieur donneront jusqu'à 750 g/plant.</p></div>
+</div>
+                                <div data-widget-id="wid_1531247478_70h301cyl" class="moto-widget moto-widget-button moto-preset-2 moto-align-left moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-medium moto-spacing-left-medium  " data-widget="button">
+            <a href="https://www.zamnesia.fr/zamnesia-seeds/5173-larry-bird-kush-feminisee.html"   data-action="blog.index" class="moto-widget-button-link moto-size-medium moto-link"><span class="fa moto-widget-theme-icon"></span> <span class="moto-widget-button-label">PLUS</span></a>
+    </div>
+            </div>
+
+                                    </div>
+    </div>
+</div>
+                                                </div>
+    </div>
+</div>
+                                                                <div id="wid_1531247594_bnmvwbmg4" data-parent-id="wid_1531247233_ak03421fy" class="moto-widget moto-widget-tabs__item moto-entertainment__playing_disabled" data-widget="tabs.item">
+    <div class="moto-widget-tabs__header moto-widget-tabs__header_mobile" data-tab="wid_1531247594_bnmvwbmg4">
+                <div class="moto-widget-tabs__header-item moto-widget-tabs__header-title">JUNE 12</div>    </div>
+    <div class="moto-widget__content-wrapper moto-widget-tabs__content-wrapper" style="display: none;">
+        <div id="wid_1531247594_bnmvwbmg4__content" class="moto-widget__content moto-widget-tabs__content">
+                                                <div data-widget-id="wid_1531247594_32h0hlu1c" class="moto-widget moto-widget-row row-gutter-0 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-grid-type="sm" data-widget="row" data-spacing="aaaa" style="background-position:left top;" >
+            <div class="container-fluid">
+        <div class="row" data-container="container">
+                                                <div data-widget-id="wid_1531247594_6xsa1szel" class="moto-widget moto-widget-row__column moto-cell  col-sm-6 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="background-position:center;background-image:url(mt-demo/68100/68197/mt-content/uploads/2018/07/mt-1532-home-img-8.jpg);background-size:cover;background-repeat:no-repeat;"  data-widget="row.column" data-container="container" data-spacing="aaaa">
+                            <div data-widget-id="wid_1531247594_rfxdbs9nj" class="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto "
+    data-widget="spacer" data-preset="default" data-spacing="aaaa" data-visible-on="mobile-v">
+    <div class="moto-widget-spacer-block" style="height:200px"></div>
+</div>
+            </div>
+
+                                                                <div data-widget-id="wid_1531247594_h2e8wk9uv" class="moto-widget moto-widget-row__column moto-cell  col-sm-6 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="background-position:left top;"  data-widget="row.column" data-container="container" data-spacing="aaaa">
+                            <div data-widget-id="wid_1531247594_axvbf0i8x" class="moto-widget moto-widget-text moto-preset-default  moto-spacing-top-medium moto-spacing-right-medium moto-spacing-bottom-small moto-spacing-left-medium  " data-widget="text" data-preset="default" data-spacing="mmsm" data-visible-on="mobile-v" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_7"><strong><span class="moto-color1_3">MARIJUANA HEALS AND STRENGTHENS YOUR BONES</span></strong></p><p class="moto-text_normal"><span class="moto-color_custom3">June 25, 2018</span></p><p class="moto-text_normal">&nbsp;</p><p class="moto-text_normal">Do you have bone fractures? Do you have bone diseases like arthritis? Or you are suffering from low bone density due to ageing? Your solution lies in marijuana. Yeah, marijuana is a panacea for numerous health conditions, including bone problems. Even science has backed that marijuana can heal bone injury and help with bone density.</p></div>
+</div>
+                                <div data-widget-id="wid_1531247594_bp7z5d0sa" class="moto-widget moto-widget-button moto-preset-2 moto-align-left moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-medium moto-spacing-left-medium  " data-widget="button">
+            <a href="blog/index.html"   data-action="blog.index" class="moto-widget-button-link moto-size-medium moto-link"><span class="fa moto-widget-theme-icon"></span> <span class="moto-widget-button-label">READ MORE</span></a>
+    </div>
+            </div>
+
+                                    </div>
+    </div>
+</div>
+                                                </div>
+    </div>
+</div>
+                                                                <div id="wid_1531247596_hnyi75u6m" data-parent-id="wid_1531247233_ak03421fy" class="moto-widget moto-widget-tabs__item moto-entertainment__playing_disabled" data-widget="tabs.item">
+    <div class="moto-widget-tabs__header moto-widget-tabs__header_mobile" data-tab="wid_1531247596_hnyi75u6m">
+                <div class="moto-widget-tabs__header-item moto-widget-tabs__header-title">JUNE 4</div>    </div>
+    <div class="moto-widget__content-wrapper moto-widget-tabs__content-wrapper" style="display: none;">
+        <div id="wid_1531247596_hnyi75u6m__content" class="moto-widget__content moto-widget-tabs__content">
+                                                <div data-widget-id="wid_1531247596_33oviprkj" class="moto-widget moto-widget-row row-gutter-0 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-grid-type="sm" data-widget="row" data-spacing="aaaa" style="background-position:left top;" >
+            <div class="container-fluid">
+        <div class="row" data-container="container">
+                                                <div data-widget-id="wid_1531247596_4ak9vdoyi" class="moto-widget moto-widget-row__column moto-cell  col-sm-6 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="background-position:center;background-image:url(mt-demo/68100/68197/mt-content/uploads/2018/07/mt-1532-home-img-9.jpg);background-size:cover;background-repeat:no-repeat;"  data-widget="row.column" data-container="container" data-spacing="aaaa">
+                            <div data-widget-id="wid_1531247596_y1nus0qba" class="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto "
+    data-widget="spacer" data-preset="default" data-spacing="aaaa" data-visible-on="mobile-v">
+    <div class="moto-widget-spacer-block" style="height:200px"></div>
+</div>
+            </div>
+
+                                                                <div data-widget-id="wid_1531247596_h97ukmmqb" class="moto-widget moto-widget-row__column moto-cell  col-sm-6 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="background-position:left top;"  data-widget="row.column" data-container="container" data-spacing="aaaa">
+                            <div data-widget-id="wid_1531247596_39xslg2hh" class="moto-widget moto-widget-text moto-preset-default  moto-spacing-top-medium moto-spacing-right-medium moto-spacing-bottom-small moto-spacing-left-medium  " data-widget="text" data-preset="default" data-spacing="mmsm" data-visible-on="mobile-v" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_7"><strong><span class="moto-color1_3">CANNABIS FOR CANCER CURE</span></strong></p><p class="moto-text_normal"><span class="moto-color_custom3">June 25, 2018</span></p><p class="moto-text_normal">&nbsp;</p><p class="moto-text_normal">Over the years, many alternative cancer treatments (being hyped as holistic treatments) have been put into the practice. The aim of this alternative treatment is to help relieve cancer symptoms and improve patient’s quality of life. Though they are not prescribed by a doctor, many people practice them to seek improvement in their condition. Some of popular alternative treatments for cancer are Chinese medicine, acupuncture, yoga and hypnosis.</p></div>
+</div>
+                                <div data-widget-id="wid_1531247596_5lq4rr3gp" class="moto-widget moto-widget-button moto-preset-2 moto-align-left moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-medium moto-spacing-left-medium  " data-widget="button">
+            <a href="blog/index.html"   data-action="blog.index" class="moto-widget-button-link moto-size-medium moto-link"><span class="fa moto-widget-theme-icon"></span> <span class="moto-widget-button-label">READ MORE</span></a>
+    </div>
+            </div>
+
+                                    </div>
+    </div>
+</div>
+                                                </div>
+    </div>
+</div>
+                                    </div>
+    </div>
+    </div>
+        
+    
+        
+            
+        
+    
+</div>
+
+                
+            
+        </div>
+    </div>
+</div>
+                    
+                
+            </div>
+        </div>
+    </div>
+</div>            
+        </section>
+    </div>
+
+    <footer id="section-footer" class="footer moto-section" data-widget="section" data-container="section">
+                                <div class="moto-widget moto-widget-block moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="block" data-spacing="aaaa" style="background-color:#0a4b13;" data-bg-position="left top">
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="moto-cell col-sm-12" data-container="container">
+                
+            <div data-widget-id="wid__map__5b2351d8b062e" class="moto-widget moto-widget-map moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto  " data-widget="map" data-spacing="aaaa">
+    <div class="moto-widget-cover"></div>
+    
+</div><div data-widget-id="wid__spacer__5b2351d8b240a" class="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-medium moto-spacing-right-auto moto-spacing-bottom-medium moto-spacing-left-auto "
+    data-widget="spacer" data-preset="default" data-spacing="mama" data-visible-on="mobile-v">
+    <div class="moto-widget-spacer-block" style="height:10px"></div>
+</div><div class="moto-widget moto-widget-row row-fixed moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-medium moto-spacing-left-auto" data-grid-type="sm" data-widget="row" data-spacing="aama" style="" data-bg-position="left top">
+    
+    
+    <div class="container-fluid">
+        <div class="row" data-container="container">
+            
+                
+                    <div class="moto-widget moto-widget-row__column moto-cell col-sm-3 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+    
+        
+            <div class="moto-widget moto-widget-row moto-justify-content_center moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-grid-type="xs" data-widget="row" data-spacing="aaaa" style="" data-bg-position="left top">
+    
+    
+    <div class="container-fluid">
+        <div class="row" data-container="container">
+            
+                
+                    <div class="moto-widget moto-widget-row__column moto-cell col-xs-3 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+    
+        
+            <div data-widget-id="wid_1531247845_jgbsprp7m" class="moto-widget moto-widget-image moto-preset-default  moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto  " data-widget="image">
+                        <a class="moto-widget-image-link moto-link" href="index.html"   data-action="page">
+                <img data-src="/mt-demo/68100/68197/mt-content/uploads/2018/07/mt-1532-logo.png" class="moto-widget-image-picture lazyload" data-id="267" title="" alt="">
+            </a>
+            </div>
+        
+    
+</div>
+
+                
+            
+                
+                    <div class="moto-widget moto-widget-row__column moto-cell col-xs-9 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+    
+        
+            <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aaaa" data-animation="">
+<!--................................................................................-->
+
+                <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_1"><a href="index.html" data-action="page" data-id="1" class="moto-link">CalédoWeed</a></p><p class="moto-text_186"><a href="index.html" data-action="page" data-id="1" class="moto-link">MARIJUANA</a></p></div>
+</div>
+        
+    
+</div>
+
+                
+            
+        </div>
+    </div>
+</div>
+        
+    
+</div>
+
+                
+            
+                
+                    <div class="moto-widget moto-widget-row__column moto-cell col-sm-3 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+    
+        
+            
+
+
+  
+    
+<div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="sasa" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_2">Contactez nous</p></div>
+</div><div class="moto-widget moto-widget-row moto-justify-content_center moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto" data-grid-type="xs" data-widget="row" data-spacing="aasa" style="" data-bg-position="left top">
+    
+    
+    <div class="container-fluid">
+        <div class="row" data-container="container">
+            
+                
+                    <div class="moto-widget moto-widget-row__column moto-cell col-xs-2 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+    
+<div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aaaa" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_9"><span class="moto-color3_3"><span class="fa"></span></span></p></div>
+</div></div><div class="moto-widget moto-widget-row__column moto-cell col-xs-10 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+    
+<div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aaaa" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_207">873  St, NC 98809</p></div>
+</div></div>
+
+                
+            
+        </div>
+    </div>
+</div><div class="moto-widget moto-widget-row moto-justify-content_center moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto" data-grid-type="xs" data-widget="row" data-spacing="aasa" style="" data-bg-position="left top">
+    
+    
+    <div class="container-fluid">
+        <div class="row" data-container="container">
+            
+                
+                    <div class="moto-widget moto-widget-row__column moto-cell col-xs-2 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+    
+        
+            <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aaaa" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_9"><span class="moto-color3_3"><span class="fa"></span></span></p></div>
+</div>
+        
+    
+</div>
+
+                
+            
+                
+                    <div class="moto-widget moto-widget-row__column moto-cell col-xs-10 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+    
+        
+            <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aaaa" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_207"><a href="tel:1234567890" data-action="call" class="moto-link">(687) 66-78-90</a></p></div>
+</div>
+        
+    
+</div>
+
+                
+            
+        </div>
+    </div>
+</div><div class="moto-widget moto-widget-row moto-justify-content_center moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto" data-grid-type="xs" data-widget="row" data-spacing="aasa" style="" data-bg-position="left top">
+    
+    
+    <div class="container-fluid">
+        <div class="row" data-container="container">
+            
+                
+                    <div class="moto-widget moto-widget-row__column moto-cell col-xs-2 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+    
+        
+            <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aaaa" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_9"><span class="moto-color3_3"><span class="fa"></span></span></p></div>
+</div>
+        
+    
+</div>
+
+                
+            
+                
+                    <div class="moto-widget moto-widget-row__column moto-cell col-xs-10 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+    
+        
+            <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aaaa" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_208"><a data-action="call" class="moto-link" href="tel:1234567890">Calédoweed@gmail.com</a></p></div>
+</div>
+        
+    
+</div>
+
+                
+            
+        </div>
+    </div>
+</div><div class="moto-widget moto-widget-row moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto" data-grid-type="xs" data-widget="row" data-spacing="aasa" style="" data-bg-position="left top">
+    
+    
+    <div class="container-fluid">
+        <div class="row" data-container="container">
+            
+                
+                    <div class="moto-widget moto-widget-row__column moto-cell col-xs-2 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+    
+        
+            <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aaaa" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_9"><span class="moto-color3_3"><span class="fa"></span></span></p></div>
+</div>
+        
+    
+</div>
+
+                
+            
+                
+                    <div class="moto-widget moto-widget-row__column moto-cell col-xs-10 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+    
+        
+            <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aaaa" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_207">Lundi dimanche:</p><p class="moto-text_207">9:00 AM - 10:00 PM</p></div>
+</div>
+        
+    
+</div>
+
+                
+            
+        </div>
+    </div>
+</div></div><div class="moto-widget moto-widget-row__column moto-cell col-sm-3 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+    
+<div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aasa" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_2"><span class="moto-color5_5">Connecte-toi avec nous</span></p><p class="moto-text_system_11"><span class="moto-color5_5">CalédoWeed Référencement</span></p></div>
+</div><div id="wid_1529041469_aevnlvrcp" data-widget-id="wid_1529041469_aevnlvrcp" class="moto-widget moto-widget-social-links-extended moto-preset-default moto-align-left moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-medium moto-spacing-left-auto  " data-widget="social_links_extended" data-preset="default">
+        <ul class="moto-widget-social-links-extended__list">
+                <li class="moto-widget-social-links-extended__item moto-widget-social-links-extended__item-1">
+            <a href="http://demolink.motocms.com/" class="moto-widget-social-links-extended__link" target="_blank" >
+                <span class="moto-widget-social-links-extended__icon fa fa-facebook"></span>
+            </a>
+        </li>
+                <li class="moto-widget-social-links-extended__item moto-widget-social-links-extended__item-2">
+            <a href="http://demolink.motocms.com/" class="moto-widget-social-links-extended__link" target="_blank" >
+                <span class="moto-widget-social-links-extended__icon fa fa-twitter"></span>
+            </a>
+        </li>
+                <li class="moto-widget-social-links-extended__item moto-widget-social-links-extended__item-3">
+            <a href="http://demolink.motocms.com/" class="moto-widget-social-links-extended__link" target="_blank" >
+                <span class="moto-widget-social-links-extended__icon fa fa-linkedin"></span>
+            </a>
+        </li>
+                <li class="moto-widget-social-links-extended__item moto-widget-social-links-extended__item-4">
+            <a href="http://demolink.motocms.com/" class="moto-widget-social-links-extended__link" target="_blank" >
+                <span class="moto-widget-social-links-extended__icon fa fa-pinterest"></span>
+            </a>
+        </li>
+                <li class="moto-widget-social-links-extended__item moto-widget-social-links-extended__item-5">
+            <a href="http://demolink.motocms.com/" class="moto-widget-social-links-extended__link" target="_blank" >
+                <span class="moto-widget-social-links-extended__icon fa fa-google-plus"></span>
+            </a>
+        </li>
+            </ul>
+    <style type="text/css">
+                                                                    </style>
+    </div></div><div class="moto-widget moto-widget-row__column moto-cell col-sm-3 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+    
+<div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aasa" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_2"><span class="moto-color5_5">Newsletter</span></p><p class="moto-text_system_11"><span class="moto-color5_5">INSCRIVEZ-VOUS POUR DES OFFRES SPÉCIALES</span></p></div>
+</div><div data-widget-id="wid__mail_chimp__5b2351d8b6f8e" class="moto-widget moto-widget-mail_chimp moto-widget-contact_form moto-preset-3 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto  " data-widget="mail_chimp" data-preset="3">
+    <div ng-controller="widget.MailChimp.Controller" ng-init="listId = '';actionAfterSubmission={&quot;action&quot;:&quot;none&quot;,&quot;url&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:&quot;&quot;};resetAfterSubmission=false;">
+
+        
+        <form class="moto-widget-contact_form-form" role="form" name="subscribeForm" ng-submit="submit()" novalidate>
+            <div ng-show="sending" class="contact-form-loading"></div>
+                                                                        <div class="moto-widget-contact_form-group">
+                            <label for="field_email" class="moto-widget-contact_form-label">Entrer votre e-mail</label>
+                            <input type="text" class="moto-widget-contact_form-field moto-widget-contact_form-input" placeholder="Enter your e-mail *"  ng-blur="validate('email')" required  ng-model-options="{ updateOn: 'blur' }" name="email" id="field_email" ng-model="message.email"/>
+                                                            <span class="moto-widget-contact_form-field-error ng-cloak" ng-cloak ng-show="subscribeForm.email.$invalid && !subscribeForm.email.$pristine && !subscribeForm.email.emailInvalid" >Field is required</span>
+                                <span class="moto-widget-contact_form-field-error ng-cloak" ng-cloak ng-show="subscribeForm.email.emailInvalid && !subscribeForm.email.$pristine" >Incorrect email</span>
+                                                    </div>
+                                                                                                                                    
+                            <input type="hidden" name="status" value="subscribed"/>
+                <div class="moto-widget-contact_form-success ng-cloak" ng-cloak ng-show="showSuccessMessage">
+                    
+Votre inscription à la newsletter a bien été prise en compte
+                </div>
+                <div class="moto-widget-contact_form-danger ng-cloak" ng-cloak ng-show="emailError && !isSubscribed">
+                   
+Vous n'étiez pas abonné. Veuillez réessayer
+                </div>
+                <div class="moto-widget-contact_form-danger ng-cloak" ng-cloak ng-show="emailError && isSubscribed">
+
+                    Vous êtes déjà inscrit à cette newsletter                </div>
+            
+            <div class="moto-widget-contact_form-buttons">
+                <div class="moto-widget moto-widget-button moto-preset-default moto-align-left" data-preset="default" data-align="left">
+                    <a ng-click="submit()" class="moto-widget-button-link moto-size-medium"
+                       data-size="medium"><span class="fa moto-widget-theme-icon"></span><span class="moto-widget-button-label">Souscrire</span></a>
+                </div>
+                <button type="submit" class="hidden"></button>
+            </div>
+        </form>
+    </div>
+</div></div>
+
+                
+            
+        </div>
+    </div>
+</div><div class="moto-widget moto-widget-row row-fixed moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-grid-type="sm" data-widget="row" data-spacing="aaaa" style="" data-bg-position="left top">
+    
+    
+    <div class="container-fluid">
+        <div class="row" data-container="container">
+            
+                
+                    <div class="moto-widget moto-widget-row__column moto-cell col-sm-12 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+    
+<div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="sasa" data-animation="">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_209">© 2019&nbsp;CalédoWeed Marijuana NC. <a data-action="page" data-id="19" class="moto-link" href="privacy-policy/index.html">All rights reserved</a>.&nbsp;Designed by&nbsp;<a target="_self" rel="nofollow" data-action="url" class="moto-link" href="#">Apsylone.com</a></p></div>
+</div>
+</div>
+<!--.............................-->
+                
+            
+        </div>
+    </div>
+</div></div>
+        </div>
+    </div>
+</div>            
+    </footer>
+
+                     <div data-moto-back-to-top-button class="moto-back-to-top-button">
+        <a ng-click="toTop($event)" class="moto-back-to-top-button-link">
+            <span class="moto-back-to-top-button-icon fa"></span>
+        </a>
+    </div>
+                    <script src="mt-includes/js/website.assets.min93f6.js?_build=1562180397" type="text/javascript" data-cfasync="false"></script>
+
+    <script src="mt-includes/js/website.minec8e.js?_build=1562180395" type="text/javascript" data-cfasync="false"></script>
+        
+                
+    
+    
 </body>
-
-
 </html>
