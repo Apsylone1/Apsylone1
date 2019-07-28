@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/jquery.pagepiling.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="fonts/flaticon.css">
+	<link rel="stylesheet" href="fonts/flaticon.css">
+	<link rel="stylesheet" href="fonts/icomoon.css">
     <link rel="stylesheet" href="css/plugins.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/color.css" id="color-change">
@@ -80,9 +81,10 @@
 			<li data-menuanchor="page2"><a href="#page2">A propos de moi.</a></li>
 			<li data-menuanchor="page3"><a href="#page3">Résumer</a></li>
 			<li data-menuanchor="page4"><a href="#page4">Services</a></li>
-			<li data-menuanchor="page5"><a href="#page5">Team</a></li>
-			<li data-menuanchor="page6"><a href="#page6">Commentaire</a></li>
-			<li data-menuanchor="page7"><a href="#page7">Contact</a></li>
+			<li data-menuanchor="page5"><a href="#page5">Portfolio</a></li>
+			<li data-menuanchor="page6"><a href="#page6">Team</a></li>
+			<li data-menuanchor="page7"><a href="#page7">Commentaire</a></li>
+			<li data-menuanchor="page8"><a href="#page8">Contact</a></li>
 		</ul>
 	</div>
 	<div class="sidebar bg_primary">
@@ -97,7 +99,7 @@
 		</div>			
 	</div>
 	<div class="contact_massage bg_primary">
-		<a href="#page9"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+		<a href="#page8"><i class="fa fa-envelope" aria-hidden="true"></i></a>
 	</div>
 	<!--	End Sidebar
 	=======================================================-->
@@ -413,6 +415,47 @@
 		===================================================-->
 		<!--	Start Portfolio
 		===================================================-->
+		<div id="Portfolio" class="section bg_white pp-scrollable">
+				<div class="container">
+					<div class="services my_60">
+						<div class="row">
+							<div class="col-md-12 col-lg-12">
+								<!--	Start Title
+								================================-->
+								<div class="main_title pb_60">
+									<h2 class="title color_primary">Portfolio </h2>
+									<p class="mt_15">Voici quelques site que j'ai pu créer.</p>											
+								</div>
+								<!--	End Title
+								================================-->
+							</div>
+						</div>
+						<div class="services_item owl-carousel">
+							<div class="service_one text-center p_30">
+									<div ><img src="images/portfolio/01.png"></div>
+								<h3 class="font-weight-bold color_primary">Khan fitness club </h3>
+								<p>Sport et détente orienté femme ou homme selon votre choix </p>
+							</div>
+							<div class="service_one text-center p_30">
+									<div ><img src="images/portfolio/02.png"></div>
+								<h3 class="font-weight-bold color_primary"> ApStreamNC</h3>
+								<p>Que ce soit du Front End ou Back End je m'occuperais de vous pour qu'à la fin ce ne soit que votre pensée qui y soie représenter avec comme seul barrière votre imagination. </p>
+							</div>
+							<div class="service_one text-center p_30">
+									<div ><img src="images/portfolio/03.png"></div>
+								<h3 class="font-weight-bold color_primary">DEFIS SIMPLON</h3>
+								<p>Un défi lançait par Simplon pour les jeunes développeurs</p>
+							</div>
+							<div class="service_one text-center p_30">
+									<div ><img src="images/portfolio/04.png"></div>
+								<h3 class="font-weight-bold color_primary">Accueil de rencontre</h3>
+								<p>Test de site de rencontre pour du Referencement  </p>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
 	    
 		<!--	End Portfolio
 		===================================================-->
@@ -671,28 +714,29 @@
 								<div class="row">
 									<div class="col-md-6 col-lg-6">
 										<div class="form-group">
-											<input class="form-control" type="text" name="name" placeholder="Your Name" />
-										</div>
-									</div>
-									<div class="col-md-6 col-lg-6">
-										<div class="form-group">
-											<input class="form-control" type="email" name="email" placeholder="Email Address" />
-										</div>
-									</div>
-									<div class="col-md-12 col-lg-12">
-										<div class="form-group">
-										  <input class="form-control" type="text" name="subject" placeholder="Subject"/>
-										</div>
-									</div>
-									<div class="col-md-12 col-lg-12">
-										<div class="form-group">
-											<textarea class="form-control" name="message" rows="7" placeholder="Message"></textarea>
-										</div>							
-									</div>
-									<div class="col-md-12 col-lg-12">
-										<div class="form-group">
-											<input class="btn btn-default" id="send" value="Send Massage" type="submit"/>
-										</div>
+											
+<input class="form-control" type="text" name="name" placeholder="votre Nom " />
+</div>
+</div>
+<div class="col-md-6 col-lg-6">
+<div class="form-group">
+	<input class="form-control" type="email" name="email" placeholder="Votre address email" />
+</div>
+</div>
+<div class="col-md-12 col-lg-12">
+<div class="form-group">
+  <input class="form-control" type="text" name="subject" placeholder="Votre suject"/>
+</div>
+</div>
+<div class="col-md-12 col-lg-12">
+<div class="form-group">
+	<textarea class="form-control" name="message" rows="7" placeholder="Pour nous contacter ire cliqué sur envoyer une page email s'ouvrira devant vous.*  Merci  *"></textarea>
+</div>							
+</div>
+<div class="col-md-12 col-lg-12">
+<div class="form-group">
+	<a href="mailto:fabricedujardin873@gmail.com" id="envoyerBack">Envoyer votre message</a>
+</div>
 									</div>
 									<div class="col-md-12 col-lg-12">
 										<div class="error-handel">

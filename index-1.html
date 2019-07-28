@@ -26,6 +26,17 @@
       <!--	Title
     ==================================================-->
 	<title>Fabrice - Personal Portfolio HTML Template</title>
+	<style>
+	.couleurAportfolio{
+		color:yellow;
+
+	}
+	.couleurAportfolio:hover{
+		color:#dafb02;
+
+	}
+	
+	</style>
 
 </head>
 <body id="top" class="page-load">
@@ -98,7 +109,7 @@
 		</div>			
 	</div>
 	<div class="contact_massage bg_deepblack">
-		<a href="#page9"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+		<a href="#page8"><i class="fa fa-envelope" aria-hidden="true"></i></a>
 	</div>
 	<!--	End Sidebar
 	=======================================================-->
@@ -413,7 +424,48 @@
 		===================================================-->
 		<!--	Start Portfolio
 		===================================================-->
-	   
+		
+		<div id="Portfolio" class="section bg_black pp-scrollable">
+	    	<div class="container">
+	    		<div class="services my_60">
+	    			<div class="row">
+		    			<div class="col-md-12 col-lg-12">
+		    				<!--	Start Title
+		    				================================-->
+		    				<div class="main_title pb_60">
+								<h2 class="title color_white">Portfolio</h2>
+								<p class="mt_15 color_lightgray">Voici quelques site que j'ai pu créer.</p>											
+							</div>
+							<!--	End Title
+		    				================================-->
+		    			</div>
+		    		</div>
+		    		<div class="services_item owl-carousel">
+						<div class="service_one text-center p_30 bg_deepblack color_secondery">
+							<div ><img src="images/portfolio/01.png"></div>
+							<h3 class="font-weight-bold color_white"><a href="site/Sport/index.html" class="couleurAportfolio"> Khan fitness club </a></h3>
+							<p>Sport et détente orienté femme ou homme selon votre choix</p>
+						</div>
+						<div class="service_one text-center p_30 bg_deepblack color_secondery">
+								<div ><img src="images/portfolio/02.png"></div>
+							<h3 class="font-weight-bold color_white"><a href="site/Streaming/index.html" class="couleurAportfolio"> ApStreamNC</a></h3>
+							<p>crée pour optimiser les lectures de Streaming en Nouvelle-Calédonie </p>
+						</div>
+						<div class="service_one text-center p_30 bg_deepblack color_secondery">
+								<div ><img src="images/portfolio/03.png"></div>
+							<h3 class="font-weight-bold color_white"><a href="site/exo one million/index.html" class="couleurAportfolio">DEFIS SIMPLON</a></h3>
+							<p>Un défi lançait par Simplon pour les jeunes développeurs</p>
+						</div>
+						<div class="service_one text-center p_30 bg_deepblack color_secondery">
+								<div ><img src="images/portfolio/04.png"></div>
+							<h3 class="font-weight-bold color_white"><a href="site/site de rencontre et de partage/index.html" class="couleurAportfolio">Accueil de rencontre</a></h3>
+							<p>Test de site de rencontre pour du Referencement </p>
+						</div>
+						
+		    		</div>
+	    		</div>
+	    	</div>
+	    </div>
 		<!--	End Portfolio
 		===================================================-->
 		<!--	Start Pricing
@@ -549,7 +601,7 @@
 		    				<!--	Start Title
 		    				================================-->
 		    				<div class="main_title pb_60">
-								<h2 class="title color_white">Testimonial</h2>
+								<h2 class="title color_white">Commentaire</h2>
 								<p class="mt_15 color_lightgray">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant.</p>											
 							</div>
 							<!--	End Title
@@ -671,28 +723,29 @@
 								<div class="row">
 									<div class="col-md-6 col-lg-6">
 										<div class="form-group">
-											<input class="form-control bg_black" type="text" name="name" placeholder="Your Name" />
-										</div>
-									</div>
-									<div class="col-md-6 col-lg-6">
-										<div class="form-group">
-											<input class="form-control bg_black" type="email" name="email" placeholder="Email Address" />
-										</div>
-									</div>
-									<div class="col-md-12 col-lg-12">
-										<div class="form-group">
-										  <input class="form-control bg_black" type="text" name="subject" placeholder="Subject"/>
-										</div>
-									</div>
-									<div class="col-md-12 col-lg-12">
-										<div class="form-group">
-											<textarea class="form-control bg_black" name="message" rows="7" placeholder="Message"></textarea>
-										</div>							
-									</div>
-									<div class="col-md-12 col-lg-12">
-										<div class="form-group">
-											<input class="btn btn-default" id="send" value="Send Massage" type="submit"/>
-										</div>
+											
+<input class="form-control" type="text" name="name" placeholder="votre Nom " />
+</div>
+</div>
+<div class="col-md-6 col-lg-6">
+<div class="form-group">
+	<input class="form-control" type="email" name="email" placeholder="Votre address email" />
+</div>
+</div>
+<div class="col-md-12 col-lg-12">
+<div class="form-group">
+  <input class="form-control" type="text" name="subject" placeholder="Votre suject"/>
+</div>
+</div>
+<div class="col-md-12 col-lg-12">
+<div class="form-group">
+	<textarea class="form-control" name="message" rows="7" placeholder="Pour nous contacter ire cliqué sur envoyer une page email s'ouvrira devant vous.*  Merci  *"></textarea>
+</div>							
+</div>
+<div class="col-md-12 col-lg-12">
+<div class="form-group">
+	<a href="mailto:fabricedujardin873@gmail.com" id="envoyerBack">Envoyer votre message</a>
+</div>
 									</div>
 									<div class="col-md-12 col-lg-12">
 										<div class="error-handel">
