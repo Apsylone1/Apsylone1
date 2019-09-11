@@ -15,8 +15,8 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
-  color: #828282;
-  background: #fff;
+  color: whitesmoke;
+  background: black;
 }
 
 #page {
@@ -47,7 +47,7 @@ body {
 }
 
 a {
-  color: #F85A16;
+  color: #bbe432;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 28px 0;
 }
 .fh5co-nav .top {
-  background: #F85A16;
+  background: #585855;
   padding: 7px 0;
   margin-bottom: 0;
 }
@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6, figure {
   *display: inline;
   border-right: 1px solid rgba(255, 255, 255, 0.2);
   letter-spacing: 0px;
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
 }
 .fh5co-nav .top .fh5co-social li {
   font-size: 14px;
@@ -135,11 +135,11 @@ h1, h2, h3, h4, h5, h6, figure {
   font-family: "Work Sans", Arial, sans-serif;
 }
 .fh5co-nav #fh5co-logo a span {
-  color: #F85A16;
+  color: #bbe432;
 }
 .fh5co-nav a {
   padding: 5px 10px;
-  color: #000;
+  color: whitesmoke;
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav .menu-1 {
@@ -252,7 +252,7 @@ h1, h2, h3, h4, h5, h6, figure {
   box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
 }
 .fh5co-nav ul li.active > a {
-  color: #F85A16 !important;
+  color: #bbe432 !important;
 }
 
 #fh5co-header,
@@ -419,7 +419,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #F85A16;
+  color: #bbe432;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -438,7 +438,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
 }
 .fh5co-contact-info ul li:before {
-  color: #F85A16;
+  color: #bbe432;
   position: absolute;
   left: 0;
   top: .05em;
@@ -1125,7 +1125,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: rgba(255, 255, 255, 0.7);
 }
 #fh5co-started h2 .percent {
-  color: #F85A16;
+  color: #bbe432;
   font-weight: 700;
 }
 #fh5co-started p {
@@ -1161,7 +1161,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-started .btn {
   height: 54px;
   border: none !important;
-  background: #F85A16;
+  background: #bbe432;
   color: #fff;
   font-size: 16px;
   text-transform: uppercase;
@@ -1567,9 +1567,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .btn-primary {
-  background: #F85A16;
+  background: #bbe432;
   color: #fff;
-  border: 2px solid #F85A16;
+  border: 2px solid #bbe432;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #f96c2f !important;
@@ -1703,7 +1703,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .form-control {
   box-shadow: none;
   background: transparent;
-  border: 2px solid rgba(0, 0, 0, 0.1);
+  border: 2px solid whitesmoke;
   height: 54px;
   font-size: 18px;
   font-weight: 300;
