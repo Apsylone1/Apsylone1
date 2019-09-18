@@ -108,6 +108,11 @@ iframe: https://s2.film-streaming.com/1ad3a45f-281f-48b5-929d-12d5281939d2
 
 Evil Dead
 iframe: https://stream.hds-streaming.com/video/5c7e4ce3faddb8423f1145bb
+
+CA 2 
+iframe: https://lb.film-streaming.com/play/bcca1860281b65c5b95a282cc681baa0
+
+
 Serie :
 
 Origine Saison 1 
