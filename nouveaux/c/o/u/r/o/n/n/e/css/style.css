@@ -3769,6 +3769,9 @@ img {
   }
 }
 @media (max-width: 480px) {
+  #wpf-loader-two .wpf-loader-two-inner {
+    left: 39%;
+}
   #aa-slider .aa-slider-area .seq-title {
     left: 2%;
     top: 15%;
@@ -4142,6 +4145,7 @@ img {
     padding: 6px 10px;
     font-size: 14px;
   }
+  
 }
 @media (max-width: 320px) {
   #aa-header .aa-header-bottom .aa-cartbox .aa-cartbox-summary::after,
@@ -4184,5 +4188,6 @@ img {
   #aa-header .aa-header-top .aa-header-top-right .aa-head-top-nav-right li a {   
     padding: 5px 2px;
   }
+ 
 }
 
