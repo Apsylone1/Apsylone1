@@ -737,7 +737,7 @@ img {
 #wpf-loader-two {
   height: 100%;
   bottom: 0;
-  left: 0;
+  left: 15px;
   position: fixed;
   right: 0;
   top: 0;
