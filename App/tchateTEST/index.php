@@ -21,6 +21,7 @@ if(isset($_GET['page']) && !empty($_GET['page']) && in_array($_GET['page'].'.php
 <head>
     <meta charset="UTF-8">
     <title>Aplication de tchate</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
