@@ -95,8 +95,6 @@ iframe: https://embed.mystream.to/ceft12d0gkzw
 It Comes at Night
 iframe: https://1fhjlpp.oloadcdn.net/dl/l/umeGPKIE6GQLDIxd/GpHEuRs-bBI/It.Comes.At.Night.2017.TRUEFRENCH.720p.BluRay.DTS.x264-NEO.Annuaire-Telechargement.Com.mkv.mp4?mime=true
 
-
-
 Annabelle 2 : La Création du Mal
 iframe:https://oql95s.oloadcdn.net/dl/l/1leQyUR5xJVjjd4t/NCV4KNzgt2A/Annabelle.2.Creation.2017.TRUEFRENCH.720p.BluRay.x264.WwW.ZoneTelechargement.Ws.mkv.mp4?mime=true
 
@@ -112,34 +110,43 @@ iframe: https://stream.hds-streaming.com/video/5c7e4ce3faddb8423f1145bb
 CA 2 
 iframe: https://lb.film-streaming.com/play/bcca1860281b65c5b95a282cc681baa0
 
-
 El Camino
-https://lb.film-streaming.com/play/d208fdd62b8168d0ee6090e444ab835b
-
+iframe:https://lb.film-streaming.com/play/d208fdd62b8168d0ee6090e444ab835b
 
 Spider-Man Far from
-https://lb.film-streaming.com/play/954097dd64973c6d7d074f6f4a9c6ace
+iframe:https://lb.film-streaming.com/play/954097dd64973c6d7d074f6f4a9c6ace
 
 The Influence
-https://lb.film-streaming.com/play/46de58ed8e324037e756b5d2d903ca18
+iframe:https://lb.film-streaming.com/play/46de58ed8e324037e756b5d2d903ca18
 
 Banlieusards
-https://lb.film-streaming.com/play/f7534da38fd10c345166f3dbe6bd7e40
+iframe:https://lb.film-streaming.com/play/f7534da38fd10c345166f3dbe6bd7e40
 
 Through Black Spruce 
-https://fst.uqvid.com/play/?id=94ca732eb7babd14059e87a60262d53a
+iframe:https://fst.uqvid.com/play/?id=94ca732eb7babd14059e87a60262d53a
 
 T-34
-https://playvid.xyz/v/ywm2jae60kem-26
+iframe:https://playvid.xyz/v/ywm2jae60kem-26
 
 fast and furious 9
-https://lb.film-streaming.com/play/70ff860bb81b23c2a5f34602d43cebfb
+iframe:https://lb.film-streaming.com/play/70ff860bb81b23c2a5f34602d43cebfb
 
 Yves
-https://lb.film-streaming.com/play/45350e7077acffdaad95fd09e68aa753
+iframe:https://lb.film-streaming.com/play/45350e7077acffdaad95fd09e68aa753
 
 En liberté
-https://lb.film-streaming.com/play/064881aa8f640e64af09e022eea1a0da
+iframe:https://lb.film-streaming.com/play/064881aa8f640e64af09e022eea1a0da
+
+
+Shaun le mouton 
+iframe:https://lb.film-streaming.com/play/cd2ad66275ea2b747729e7fde013c91f
+
+Le Daim
+iframe:https://lb.film-streaming.com/play/207b376bb20220080b4596a4e6c3536f
+
+Made In China
+iframe:https://lb.film-streaming.com/play/828f62624ef45a9c1a89e4aed244f01f
+
 
 Serie :
 
@@ -220,4 +227,21 @@ Episode 3 :
 Episode 3 :
 Episode 3 :
 
+Bande annonce : 
+BLOODSHOT
+https://www.youtube.com/watch?v=nhaJRpfx-Ug
 
+ARTEMIS FOWL
+https://www.youtube.com/watch?v=Ek1k2KCWWMo
+
+King's Man
+https://www.youtube.com/watch?v=czeGEjIU_70
+
+BAD BOYS 3
+https://www.youtube.com/watch?v=9fA_ORiKbxI
+
+COCO 2
+https://www.youtube.com/watch?v=9JZ1nVH-dzg
+
+Sonic
+https://www.youtube.com/watch?v=Q1cdiNgoPq0
