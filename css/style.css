@@ -229,7 +229,7 @@ a:hover,a:focus,a.active{
 	padding-top: 60px;
 }
 .pb_60{
-	padding-bottom: 60px;
+	padding-bottom: 20px;
 }
 .pb_30{
 	padding-bottom: 30px;
@@ -1171,7 +1171,7 @@ ul#menu li a{
   padding: 5px 15px;
   font-size: 14px;
   height: calc(30px + 15px);
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   border-radius: 0px;
   border: none;
   border-bottom: 1px solid;
